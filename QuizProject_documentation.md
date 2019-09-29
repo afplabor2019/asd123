@@ -22,4 +22,4 @@ their required tests from these questions or generate a test randomly from
 the database. In class, they can give access for the students to take the test in the given timeframe. The test results are sent as described in the
 requirement specification under the [Reports form the test results](#reports-from-the-test-results) paragraph.
 ## Model of requested business processes
-![Model of requested business processes](funkSpecRequired.png)
+![Model of requested business processes](/Images/funkSpecRequired.png)
