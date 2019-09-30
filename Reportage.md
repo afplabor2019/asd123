@@ -39,11 +39,11 @@ There would be several question types for examples, only one solution is good or
 ### General information about the reportage
 <table>
   <tr>
-    <td>Type of the report</th>
+    <td><b>Type of the report</b></th>
     <td>Free</td>
   </tr>
   <tr>
-    <td>Type of scope/category</th>
+    <td><b>Type of scope/category</b></th>
     <td>Education</td>
   </tr>
 </table>
@@ -51,15 +51,15 @@ There would be several question types for examples, only one solution is good or
 ## Reportage data fields
 <table>
   <tr>
-    <td>Name of the customer</th>
+    <td><b>Name of the customer</b></th>
     <td>Csaba Tilki</td>
   </tr>
   <tr>
-    <td>Billing address</th>
+    <td><b>Billing address</b></th>
     <td>Eger, 3300, Nevesincs street 123.</td>
   </tr>
   <tr>
-    <td>Customer ID</th>
+    <td><b>Customer ID</b></th>
     <td>QWEASD01234</td>
   </tr>
 </table>
