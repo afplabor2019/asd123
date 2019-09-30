@@ -19,19 +19,19 @@ There would be several question types for examples, only one solution is good or
 ### Details of the document
 <table>
   <tr>
-    <td><b>Name of the project</b></td>
-    <td>Quiz Project</td>
+    <td><b>Name of the project</b></th>
+    <td>Quiz Project</th>
   </tr>
   <tr>
-    <td><b>Document ID</b></td>
+    <td><b>Document ID</b></th>
     <td>QWE123456789</td>
   </tr>
   <tr>
-    <td><b>Date</b></td>
+    <td><b>Date</b></th>
     <td>2019.09.16.</td>
   </tr>
   <tr>
-    <td><b>Author of the document</b></td>
+    <td><b>Author of the document</b></th>
     <td>Adam Kovacs</td>
   </tr>
 </table>
@@ -39,11 +39,11 @@ There would be several question types for examples, only one solution is good or
 ### General information about the reportage
 <table>
   <tr>
-    <th>Type of the report</th>
+    <td>Type of the report</th>
     <td>Free</td>
   </tr>
   <tr>
-    <th>Type of scope/category</th>
+    <td>Type of scope/category</th>
     <td>Education</td>
   </tr>
 </table>
@@ -51,15 +51,15 @@ There would be several question types for examples, only one solution is good or
 ## Reportage data fields
 <table>
   <tr>
-    <th>Name of the customer</th>
+    <td>Name of the customer</th>
     <td>Csaba Tilki</td>
   </tr>
   <tr>
-    <th>Billing address</th>
+    <td>Billing address</th>
     <td>Eger, 3300, Nevesincs street 123.</td>
   </tr>
   <tr>
-    <th>Customer ID</th>
+    <td>Customer ID</th>
     <td>QWEASD01234</td>
   </tr>
 </table>
