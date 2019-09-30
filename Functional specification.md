@@ -43,7 +43,7 @@ Headmaster:
 -Get warnings from all unsatisfactory grades at the beginning of each month.
 
 ## Wireframe
-![Picture of the Tests menu](/Images/wiferameTests.png)
+![Picture of the Tests menu](/Images/wireframeTests.png)
 The Tests section is where students can find their tests. Access the Tests section through the main navigation. 
 ## Scenario
 First of all, teachers have to log in to the program with their private ID, then create a test and then add questions directly into the Test. Questions are automatically added to the school's database, so they can be used in other Tests as well. Add questions to the school’s database, select questions from the school’s database, or set their test to automatically select questions at random from the school’s database each time it's started. Teachers can adjust the time and number of questions for the test.  
