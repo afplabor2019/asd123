@@ -32,7 +32,13 @@ Headmaster:
 -Get warnings from all unsatisfactory grades at the beginning of each month.
 
 ## Wireframe
+![Picture of the Tests menu](/Images/wiferameTests.png)
+The Tests section is where students can find their tests. Access the Tests section through the main navigation. 
 ## Scenario
+First of all, teachers have to log in to the program with their private ID, then create a test and then add questions directly into the Test. Questions are automatically added to the school's database, so they can be used in other Tests as well. Add questions to the school’s database, select questions from the school’s database, or set their test to automatically select questions at random from the school’s database each time it's started. Teachers can adjust the time and number of questions for the test.  
+After the lesson has started, students have to log in to the program too, then they have to click on the tests button, then the press start button. The order of the questions will be random for everyone.  
+After students finished the test, they have to save and send it. If they don't send it before their time runs out, their answers will automatically ignore and they will get zero points. They will receive emails about their results and they can watch it online too, and the teacher receives statements about all student's results. The graduation will be automatic.  
+If some of the students get an unsatisfactory exam, the high school's headmaster will get a report of them.
 ## Function - requirement compliance
 |    Module            |    ID     |    Requirement Name       |    Version    |    Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
 |----------------------|-----------|---------------------------|---------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
