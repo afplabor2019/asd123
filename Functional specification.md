@@ -12,13 +12,36 @@ their required tests from these questions or generate a test randomly from
 the database. In class, they can give access for the students to take the test in the given timeframe. The test results are sent as described in the
 requirement specification under the [Reports form the test results](https://github.com/afplabor2019/asd123/blob/master/Requirement%20specification.md#reports-from-the-test-results) paragraph.
 ## Current business use cases model
-As we can see, the teacher has got a lot of work.
-(/Images/cd.png)
+![As we can see, the teacher has got a lot of work.](/Images/cd.jpg)
 ## Required business use cases model
 As we can see, the teacher has less tasks, thanks to the system.
 ![Required business use cases model UML](/Images/funkSpecRequired.png)
 ## Required functions list
 ## Use cases
+Students and teachers will obviously use the program for different things, just like the headmaster. 
+Based on this, the appropriate use cases need to be learned by different users. 
+There are different ways to access the program, because students must not access to the same systems as the teachers.
+
+Grouped by users:
+
+Teachers:
+
+-Teachers can log in to the program with their private ID, then they can choose to write the questions by themselves or select them from the database.
+-There are a lot of question types and a wide range of settings to accommodate every use case. For examples: multiple choice test questions, free text questions, fill in the blank questions. 
+-They can view their students’ grades.
+
+Students:
+
+-Students have to log in to the program, then they have to click on the tests button, then the press start button.
+-Test can only be opened at the specified time.
+-The order of the questions will be random for everyone.
+-They have the opportunity to view the grades from that subject immediately, they know if they passed the test.
+
+Headmaster:
+
+-Headmaster can view the grades for all students and the grades’ average for classes.
+-Get warnings from all unsatisfactory grades at the beginning of each month.
+
 ## Wireframe
 ## Scenario
 ## Function - requirement compliance
