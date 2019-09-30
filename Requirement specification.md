@@ -10,7 +10,16 @@ Currently, if the teacher would like to write a quiz, ha need to prepare.
 This takes a lot of time and it’s circumstantial. He would like to replace the system. We want to help with that. We know that such software already exists, but it's expensive and they don't even know what we would provide.
 
 ## Desired system
+With the system in place, the school can reduce paper usage, and ease the
+teachers' work. The user interface is intuitive and easy to use. The test
+questions and the mode of evaluation can be chosen by the teacher. The
+students get the test in a randomized order, reducing the risk of cheating.
 ### Reports from the test results
+The system immediately evaluates and grades the test, and sends the result
+in an email to the student. Furthermore, the teacher gets a notification
+from the whole class's performance. Lastly, the headmaster gets a list of
+all the failing grades in each month, helping him to identify the students
+who struggle with their studies and need help.
 ## Required functions list
 |    Module            |    ID     |    Name                   |    Version    |    Description                                                                                                                                                                                                                                                                            |
 |----------------------|-----------|---------------------------|---------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
