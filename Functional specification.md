@@ -2,10 +2,21 @@
 ## Current situation
 We have already explained the requirement in the specification.
 ## Desired system
+The system is a web application with responsive design, meaning it will work
+on computers and phones too. The system is secure and it is accessible only
+with correct identification. Personal information is always kept private.
+After signing in the teachers can add, modify, or delete questions in the
+database. The multiple-choice questions can have one or more correct answers.
+The point value of the questions can be set too. The teachers can assemble
+their required tests from these questions or generate a test randomly from
+the database. In class, they can give access for the students to take the test in the given timeframe. The test results are sent as described in the
+requirement specification under the [Reports form the test results](https://github.com/afplabor2019/asd123/blob/master/Requirement%20specification.md#reports-from-the-test-results) paragraph.
 ## Current business use cases model
 As we can see, the teacher has got a lot of work.
 (/Images/cd.png)
 ## Required business use cases model
+As we can see, the teacher has less tasks, thanks to the system.
+![Required business use cases model UML](/Images/funkSpecRequired.png)
 ## Required functions list
 ## Use cases
 ## Wireframe
