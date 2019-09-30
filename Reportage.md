@@ -19,8 +19,8 @@ There would be several question types for examples, only one solution is good or
 ### Details of the document
 <table>
   <tr>
-    <td><b>Name of the project</b></th>
-    <td>Quiz Project</th>
+    <td><b>Name of the project</b></td>
+    <td>Quiz Project</td>
   </tr>
   <tr>
     <td><b>Document ID</b></td>
@@ -40,10 +40,10 @@ There would be several question types for examples, only one solution is good or
 <table>
   <tr>
     <th>Type of the report</th>
-    <th>Free</th>
+    <td>Free</td>
   </tr>
   <tr>
-    <td>Type of scope/category</td>
+    <th>Type of scope/category</th>
     <td>Education</td>
   </tr>
 </table>
@@ -52,14 +52,14 @@ There would be several question types for examples, only one solution is good or
 <table>
   <tr>
     <th>Name of the customer</th>
-    <th>Csaba Tilki</th>
+    <td>Csaba Tilki</td>
   </tr>
   <tr>
-    <td>Billing address</td>
+    <th>Billing address</th>
     <td>Eger, 3300, Nevesincs street 123.</td>
   </tr>
   <tr>
-    <td>Customer ID</td>
+    <th>Customer ID</th>
     <td>QWEASD01234</td>
   </tr>
 </table>
