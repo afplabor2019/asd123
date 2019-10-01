@@ -1,9 +1,9 @@
 # Reportage
 ## Record
 
-__Topic of discussion:__ Distribution of tasks required for the project.
+__Topic of discussion:__ Distribution of tasks required for the project
 
-__Locale:__ Eszterházy Károly University in Eger.
+__Locale:__ Eszterházy Károly University in Eger
 
 __Date / Time:__ 2019.09.23, 13:30
 
