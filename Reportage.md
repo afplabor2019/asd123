@@ -1,5 +1,53 @@
 # Reportage
 ## Record
+__Topic of discussion:__ Distribution of tasks required for the project
+__Locale:__ Eszterházy Károly University in Eger
+__Date / Time:__ 2019.09.23, 13:30
+__Made by:__ Viktor Sárközi
+__To get:__ All participants
+__Next date:__ 2019.09.30, 13:40
+__Participants:__
+<table>
+  <tr>
+    <td><b>Client</b><td>
+    <td><b>Software development company</b></td>
+  </tr>
+  <tr>
+    <td><b>Name</b></td>
+    <td><b>Position in the project</b><td>
+    <td><b>Name</b><td>
+    <td><b>Position in the project</b><td>
+  </tr>
+  <td>Csaba Tilki</td>
+  <td>Customer</td>
+  <td>Viktor Sárközi</td>
+  <td>Software developer</td>
+  </tr>
+  <tr>
+  <td> </td>
+  <td> </td>
+  <td>Ádám Kovács</td>
+  <td>Project manager</td>
+  </tr>
+  <tr>
+  <td> </td>
+  <td> </td>
+  <td>Krisztián Palanek</td>
+  <td>Lead developer</td>
+  </tr>
+  <tr>
+  <td> </td>
+  <td> </td>
+  <td>Dávid Attila Eperjesi</td>
+  <td>Web developer</td>
+  </tr>
+  <tr>
+  <td> </td>
+  <td> </td>
+  <td>Adalbert Tamás Balog</td>
+  <td>Web developer</td>
+  </tr>  
+</table>
 ## Reportage taken
 __Interviewer:__  
 What are your expectations for the system?  
