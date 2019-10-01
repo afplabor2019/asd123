@@ -22,9 +22,9 @@ __Participants:__
   </tr>
   <tr>
     <td><b>Name</b></td>
-    <td><b>Position in the project</b><td>
-    <td><b>Name</b><td>
-    <td><b>Position in the project</b><td>
+    <td><b>Position in the project</b></td>
+    <td><b>Name</b></td>
+    <td><b>Position in the project</b></td>
   </tr>
   <td>Csaba Tilki</td>
   <td>Customer</td>
