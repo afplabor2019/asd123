@@ -19,7 +19,7 @@ __Participants:__
   <thead>
   <tr>
     <td colspan=2><b>Client</b><td>
-    <td colspan=2><b>Software development company</b></td>
+    <td colspan=1><b>Software development company</b></td>
   </tr>
   </thead>
   <tr>
