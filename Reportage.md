@@ -1,12 +1,14 @@
 # Reportage
 ## Record
-__Topic of discussion:__ Distribution of tasks required for the project
-__Locale:__ Eszterházy Károly University in Eger
+
+__Topic of discussion:__ Distribution of tasks required for the project.
+__Locale:__ Eszterházy Károly University in Eger.
 __Date / Time:__ 2019.09.23, 13:30
 __Made by:__ Viktor Sárközi
 __To get:__ All participants
 __Next date:__ 2019.09.30, 13:40
 __Participants:__
+
 <table>
   <tr>
     <td><b>Client</b><td>
@@ -48,6 +50,7 @@ __Participants:__
   <td>Web developer</td>
   </tr>  
 </table>
+
 ## Reportage taken
 __Interviewer:__  
 What are your expectations for the system?  
