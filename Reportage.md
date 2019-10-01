@@ -16,10 +16,12 @@ __Next date:__ 2019.09.30, 13:40
 __Participants:__
 
 <table>
+  <thead>
   <tr>
-    <td><b>Client</b><td>
-    <td><b>Software development company</b></td>
+    <td colspan=2><b>Client</b><td>
+    <td colspan=2><b>Software development company</b></td>
   </tr>
+  </thead>
   <tr>
     <td><b>Name</b></td>
     <td><b>Position in the project</b></td>
