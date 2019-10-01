@@ -18,8 +18,8 @@ __Participants:__
 <table>
   <thead>
   <tr>
-    <td colspan=2><b>Client</b><td>
-    <td colspan=1><b>Software development company</b></td>
+    <td colspan=1><b><p align="center">Client</p></b><td>
+    <td colspan=1><b><p align="center">Software development company</p></b></td>
   </tr>
   </thead>
   <tr>
