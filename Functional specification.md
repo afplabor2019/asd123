@@ -1,6 +1,6 @@
 # Functional specification
 ## Current situation
-We have already explained the requirement in the specification.
+We have already explained it in the [requirement specification](https://github.com/afplabor2019/asd123/blob/master/Requirement%20specification.md#current-situation).
 ## Desired system
 The system is a web application with responsive design, meaning it will work
 on computers and phones too. The system is secure and it is accessible only
@@ -9,14 +9,14 @@ After signing in the teachers can add, modify, or delete questions in the
 database. The multiple-choice questions can have one or more correct answers.
 The point value of the questions can be set too. The teachers can assemble
 their required tests from these questions or generate a test randomly from
-the database. In class, they can give access for the students to take the test in the given timeframe. The test results are sent as described in the
-requirement specification under the [Reports form the test results](https://github.com/afplabor2019/asd123/blob/master/Requirement%20specification.md#reports-from-the-test-results) paragraph.
+the database. In class, they can give access for the students to take the test in the given timeframe. The test results are sent as described in the requirement specification under the [Reports form the test results](https://github.com/afplabor2019/asd123/blob/master/Requirement%20specification.md#reports-from-the-test-results) paragraph.
 ## Current business use cases model
 ![As we can see, the teacher has got a lot of work.](/Images/cd.jpg)
 ## Required business use cases model
 As we can see, the teacher has less tasks, thanks to the system.
 ![Required business use cases model UML](/Images/funkSpecRequired.png)
 ## Required functions list
+We have already explained it in the [requirement specification](https://github.com/afplabor2019/asd123/blob/master/Requirement%20specification.md#required-functions-list).
 ## Use cases
 Students and teachers will obviously use the program for different things, just like the headmaster. 
 Based on this, the appropriate use cases need to be learned by different users. 
