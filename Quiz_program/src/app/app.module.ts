@@ -1,6 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import { FormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { MatListModule } from '@angular/material/list';
 
@@ -26,7 +26,8 @@ import { AddQuestionComponent } from './components/add-question/add-question.com
     AppRoutingModule,
     FormsModule,
     HttpClientModule,
-    MatListModule
+    MatListModule,
+    ReactiveFormsModule,
   ],
   bootstrap: [AppComponent]
 })

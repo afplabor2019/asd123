@@ -1,0 +1,28 @@
+<div>
+    <div class="container" *ngIf="qId  < questions.length">
+      <p>{{ questions[qId].question }}</p>
+      <div id="ck-button" class="buttonHover">
+        <label><input id="cb1"  type="checkbox" [formControl]="answerChecked"><span>{{questions[qId].choices[0]}}</span></label>
+        <label><input id="cb2"  type="checkbox" [formControl]="answerChecked2"><span>{{questions[qId].choices[1]}}</span></label><br>
+        <label><input id="cb3"  type="checkbox" [formControl]="answerChecked3"><span>{{questions[qId].choices[2]}}</span></label>
+        <label><input id="cb4"  type="checkbox" [formControl]="answerChecked4"><span>{{questions[qId].choices[3]}}</span></label>
+      </div>
+      <br>
+      <button id="next" [disabled]="valami" (click)=nextQuestion()>Következő kérdés</button>
+    </div>
+    
+    <div class="container" *ngIf="qId == questions.length">
+      <h1>Ellenőrzés</h1>
+      <div *ngFor="let question of questions; index as i">
+        <p>{{ questions[i].question }}</p>
+        <div id="ck-button" class="neutral">
+          <label><span class={{chosen(i,0)}}>{{questions[i].choices[0]}}</span></label>
+          <label><span class={{chosen(i,1)}}>{{questions[i].choices[1]}}</span></label><br>
+          <label><span class={{chosen(i,2)}}>{{questions[i].choices[2]}}</span></label>
+          <label><span class={{chosen(i,3)}}>{{questions[i].choices[3]}}</span></label>
+          <p id="review">Helyes válasz(ok): {{questions[i].solutionText}}</p>
+        </div>
+      </div>
+      <p id="result">Eredmény: {{questions.length}}/{{points}}</p>
+    </div>
+  </div>
