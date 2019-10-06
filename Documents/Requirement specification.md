@@ -1,7 +1,7 @@
 # Requirement specification
 ## Current situation
 
-Currently, if the teacher would like to write a quiz, ha need to prepare. 
+Currently, if the teacher would like to write a quiz, he needs to prepare. 
 
 * He has to write the questions. 
 * He needs to print these.
