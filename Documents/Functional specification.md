@@ -1,6 +1,6 @@
 # Functional specification
 ## Current situation
-We have already explained it in the [requirement specification](https://github.com/afplabor2019/asd123/blob/master/Documents/Requirement%20specification.md#current-situation).
+We have already explained it in the [requirement specification](Requirement%20specification.md#current-situation).
 ## Desired system
 The system is a web application with responsive design, meaning it will work
 on computers and phones too. The system is secure and it is accessible only
