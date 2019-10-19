@@ -28,26 +28,18 @@ __Participants:__
   <td><p align="center">Project manager</p></td>
   </tr>
   <tr>
-  <td> </td>
-  <td> </td>
   <td><p align="center">Krisztián Palanek</p></td>
   <td><p align="center">Lead developer</p></td>
   </tr>
   <tr>
-  <td> </td>
-  <td> </td>
   <td><p align="center">Viktor Sárközi</p></td>
   <td><p align="center">Software developer</p></td>
   </tr>
   <tr>
-  <td> </td>
-  <td> </td>
   <td><p align="center">Dávid Attila Eperjesi</p></td>
   <td><p align="center">Web developer</p></td>
   </tr>
   <tr>
-  <td> </td>
-  <td> </td>
   <td><p align="center">Adalbert Tamás Balog</p></td>
   <td><p align="center">Web developer</p></td>
   </tr>  
