@@ -4,7 +4,7 @@ __Topic of discussion:__ Discuss the tasks required for DentalWebsiteProject
 
 __Locale:__ Eszterházy Károly University in Eger
 
-__Date / Time:__ 2019.10.19, 13:30
+__Date / Time:__ 2019.10.14, 13:30
 
 __Made by:__ Viktor Sárközi
 
