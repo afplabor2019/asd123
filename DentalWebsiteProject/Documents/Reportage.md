@@ -38,7 +38,8 @@ The last page is for the information, where the visitors can find the dental tec
     <td><b>Type of scope/category</b></th>
     <td>Business</td>
   </tr>
-    <tr>Format of the reportage</b></th>
+  <tr>
+    <td><b>Format of the reportage</b></th>
     <td>Video and audio recording</td>
   </tr>
 </table>
