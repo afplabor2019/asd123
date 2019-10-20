@@ -1,14 +1,10 @@
 # Reportage
 
 ## Reportage taken
-__Interviewer:__  
-What are your expectations for the system?  
-How does the system work?  
-__Interviewee:__  
-The customer needs a website, because he is not on the internet, and want to reach more doctors and patients because of business.  
+The customer needs a website, because he is not on the Internet, and want to reach more doctors and patients because of business.  
 The opening page of the website should introduce the dental technician lab, which should contain the header with the dental technician's logo and name. The images of the products should move automatically one after the other in a line under the header, but you can manually scroll through them too. At the bottom of the opening page should be the sponsors’ logo which they are working with.  
 There should be a page, where those who work there can introduce themselves, who they are, what they are doing, what is their specialization.  
-There should be another page for the products, and it should have a database, so you can set that the products are available or not.  
+There should be another page for the products, and it should have a database, so they can set that the products are available or not.  
 One page for asking the price of the products in email, so the competing companies don't know how much the products cost and they won't offer them cheaper.  
 The last page is for the information, where the visitors can find the dental technician's lab address with google map, the email address and the telephone number of the lab.  
 ## Reportage document finalized
