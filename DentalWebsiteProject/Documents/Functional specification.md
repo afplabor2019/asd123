@@ -8,3 +8,11 @@ On another page, users can find all of the contact information about the company
 Lastly, there is an admin page, where the manager can change the database. This can only be accessible for the manager.  
 ## Required business use cases model 
 ![Required business use cases model UML](https://github.com/afplabor2019/asd123/blob/master/DentalWebsiteProject/Images/funcSpecRequiredUML.png)
+## Scenario
+There is a website with five pages and each one serves a different purpose.  
+First, when users open the website, the home page is the landing page, where they can see what they can find and do on the website. Users can reach the page with the <b>Home</b> button too. There is the company's name, logo, some pictures, and supporters' logos.  
+The second button in the navigation bar takes the users to the <b>About</b> page, which contains a short description of the company and a list of the colleagues which can change dynamically according to the database.  
+The third one takes the users to the <b>Product</b> page, which contains all of the company's products sorted by categories. This page also can change dynamically according to the database.  
+The fourth one takes the users to the <b>Our works</b> page, which contains the company's completed works with a short description and for each work a gallery of photos. This is also dynamic and gets data from the database.  
+The fifth one takes the user to the <b>Contact</b> page, where they can ask for prices via email of the products and find information about the email addresses, telephone numbers, and the company location. Price request is a form on the contact page where users can type in their email address and choose which product they interested in. The server sends an email to the user given address and also to the manager's email that a price request has been made.  
+There is a <b>database</b>, where the webpage can get data for products, previous works and colleagues from, and an <b>admin page</b> from which the database is accessible with the proper rights and any relevant data stored in it can be changed from this page in a user-friendly way. The database and the admin page remain hidden to the visitors.  
