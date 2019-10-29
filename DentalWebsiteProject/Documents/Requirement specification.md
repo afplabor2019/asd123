@@ -1,9 +1,8 @@
 # Requirement specification 
 ## Current situation
-They are not like other dental surgery. They don’t advertise themselves anywhere. Only doctors visit them and clients reach them trough the doctors. They haven’t got a lot of clients.  And want to change this situation. 
-They can only be fount recommendation. They haven’t got newspaper ads and no flyers.
-Many people do not even know that their surgery exist.
-We know that there are many web development companies, but they do not provide as good a service as we and even more expensive ones. I you choose us, we will provide the best service we can.
+They are not like other dental technicians. They don’t advertise themselves anywhere. Only doctors visit them and clients reach them trough the doctors. They haven’t got enough clients, and they want to change this situation.  
+They can only be found by recommendation. They don't advertise themselves with newspaper ads or flyers. Many people do not even know, that their job exists.  
+We know, that there are many web development companies, but they do not provide as superior and quality service as we and they are even more expensive. If you choose us, we will provide the best service we can. We are youthful, motivated and full of ambitions team.  
 ## Desired system 
 Thanks to this website we can reach a broader customer base since most people search the internet first when they want to purchase a dental product.  
 The site is attractive, clean, and professional. We can build our brand with this website, display our logo and slogan. It shows the images of our products. On the site the customers can see our staff, and how well qualified they are. They can get information about us anytime, not only during office hours. Thanks to the contact page, people can find us and communicate with us easily. We present only the available services. There's a portfolio on the site from our previous works, so the customers can see what results we can produce.  
