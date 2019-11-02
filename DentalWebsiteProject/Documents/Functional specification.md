@@ -8,6 +8,27 @@ On another page, users can find all of the contact information about the company
 Lastly, there is an admin page, where the manager can change the database. This can only be accessible for the manager.  
 ## Required business use cases model 
 ![Required business use cases model UML](https://github.com/afplabor2019/asd123/blob/master/DentalWebsiteProject/Images/funcSpecRequiredUML.png)
+## Use cases
+We can distinguish two different users in terms of using this website,
+because you need a person who maintains and manages the website, which is the job of a trusted person over
+and above, the so-called normal user should be given opportunities to use the website.
+
+For the sake of transparency, the website maintenance is called <b>Manager</b>, and the visitors to the Web site are called <b>User</b>.
+
+Grouped by users:
+
+<b>User:</b>
+
+-The user has the option of requesting a price list which includes the fees for the different jobs. 
+-Also, the user is free to browse the content displayed on the website.
+
+<b>Manager:</b>
+
+-Only the Manager has access to the database, which allows further operations. 
+-The Manager can change or replace any of the products displayed on the website or even the provided information by the staff.
+-In addition, you have the exclusive right to change any previous work posted on the Website. 
+-Sending price lists requested by users also extends the opportunities of the Manager. 
+
 ## Wireframes
 + Wireframe of the Home page:
 ![Home page](https://github.com/afplabor2019/asd123/blob/master/DentalWebsiteProject/Images/Wf_Home.png)
