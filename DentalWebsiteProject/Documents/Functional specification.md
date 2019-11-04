@@ -19,19 +19,18 @@ Grouped by users:
 
 <b>User:</b>
 
--The user has the option of requesting a price list which includes the fees for the different jobs.
-
--Also, the user is free to browse the content displayed on the website.
-
+ <ul>
+  <li>The user has the option of requesting a price list which includes the fees for the different jobs.</li>
+  <li>Also, the user is free to browse the content displayed on the website.</li>
+</ul>
 <b>Manager:</b>
 
--Only the Manager has access to the database, which allows further operations.
-
--The Manager can change or replace any of the products displayed on the website or even the provided information by the staff.
-
--In addition, you have the exclusive right to change any previous work posted on the Website.
-
--Sending price lists requested by users also extends the opportunities of the Manager.
+<ul>
+<li>Only the Manager has access to the database, which allows further operations.</li>
+<li>The Manager can change or replace any of the products displayed on the website or even the provided information by the staff.</li>
+<li>In addition, you have the exclusive right to change any previous work posted on the Website.</li>
+<li>Sending price lists requested by users also extends the opportunities of the Manager.</li>
+</ul>
 
 ## Wireframes
 + Wireframe of the Home page:
