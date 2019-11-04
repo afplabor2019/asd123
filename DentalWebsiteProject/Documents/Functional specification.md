@@ -19,10 +19,11 @@ Grouped by users:
 
 <b>User:</b>
 
- <ul>
+<ul>
   <li>The user has the option of requesting a price list which includes the fees for the different jobs.</li>
   <li>Also, the user is free to browse the content displayed on the website.</li>
 </ul>
+
 <b>Manager:</b>
 
 <ul>
