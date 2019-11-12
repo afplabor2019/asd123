@@ -1,4 +1,6 @@
 # Functional specification 
+## Current situation
+We have already explained it in the [requirement specification](Requirement%20specification.md#current-situation).
 ## Desired system 
 The system is a web application with responsive design, meaning it will work on computers and phones too. On every page, there is a navigation bar. On the landing page, there is a slideshow with pictures of some products the site offers. It circles through the elements automatically, but the user can choose the displayed slide manually too. On the bottom of the landing page, there are the logos of the partner companies.  
 On the about us page, the users can find a description of the company and information about the dental staff.  
