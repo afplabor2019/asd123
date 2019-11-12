@@ -40,13 +40,13 @@ __Participants:__
   <td><p align="center">Web developer</p></td>
   </tr>
   <tr>
-  <td><p align="center">Dávid Attila Eperjesi</p></td>
+  <td><p align="center">Adalbert Tamás Balog</p></td>
   <td><p align="center">Web developer</p></td>
   </tr>  
 </table>
 
 __Activities per person:__
 
-<b>Dávid Attila Eperjesi</b> and <b>Dávid Attila Eperjesi:</b> Finalizing the schedule.
+<b>Dávid Attila Eperjesi</b> and <b>Adalbert Tamás Balog:</b> Finalizing the schedule.
 
 <b>Ádám Kovács</b> and <b>Viktor Sárközi:</b> Distribution of system plan tasks.
