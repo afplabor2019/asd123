@@ -10,6 +10,8 @@ On another page, users can find all of the contact information about the company
 Lastly, there is an admin page, where the manager can change the database. This can only be accessible for the manager.  
 ## Current business use cases model
 As we can see, the dental technician laboratory only reach trought the doctor.
+![Current business use cases model]
+(https://github.com/afplabor2019/asd123/blob/master/DentalWebsiteProject/Images/func_spec_CurrentBusinessModell.png)
 ## Required business use cases model 
 ![Required business use cases model UML](https://github.com/afplabor2019/asd123/blob/master/DentalWebsiteProject/Images/funcSpecRequiredUML.png)
 ## Use cases
