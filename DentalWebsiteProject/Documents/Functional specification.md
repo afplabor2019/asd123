@@ -8,6 +8,8 @@ The products page contains all of the products that are available for purchase. 
 There is a page where the pictures of previous works can be found.  
 On another page, users can find all of the contact information about the company. This page displays the email address, telephone, location, and a price request form. The location is displayed on a map. On the price request form, users can add their email address, and write a message for the manager, asking for a price list.  
 Lastly, there is an admin page, where the manager can change the database. This can only be accessible for the manager.  
+## Current business use cases model
+As we can see, the dental technician laboratory only reach trought the doctor.
 ## Required business use cases model 
 ![Required business use cases model UML](https://github.com/afplabor2019/asd123/blob/master/DentalWebsiteProject/Images/funcSpecRequiredUML.png)
 ## Use cases
