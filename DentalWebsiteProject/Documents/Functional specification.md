@@ -13,6 +13,8 @@ As we can see, the dental technician laboratory only reach trought the doctor.
 ![Current business use cases model](https://github.com/afplabor2019/asd123/blob/master/DentalWebsiteProject/Images/func_spec_CurrentBusinessModell.png)
 ## Required business use cases model 
 ![Required business use cases model UML](https://github.com/afplabor2019/asd123/blob/master/DentalWebsiteProject/Images/funcSpecRequiredUML.png)
+## Required functions list
+We have already explained it in the [requirement specification](Requirement%20specification.md#required-functions-list).
 ## Use cases
 We can distinguish two different users in terms of using this website,
 because you need a person who maintains and manages the website, which is the job of a trusted person over
