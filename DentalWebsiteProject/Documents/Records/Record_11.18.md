@@ -47,7 +47,7 @@ __Participants:__
 
 __Task per person:__
 
-<b>Dávid Attila Eperjesi:</b> Making newsletter section.
+<b>Dávid Attila Eperjesi:</b> Making newsletter sign-up and email contact section.
 
 <b>Adalbert Tamás Balog:</b> Making product section.
 
