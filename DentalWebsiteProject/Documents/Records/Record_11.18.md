@@ -47,12 +47,12 @@ __Participants:__
 
 __Task per person:__
 
-<b>Dávid Attila Eperjesi:</b> Making connection and newsletter section.
+<b>Dávid Attila Eperjesi:</b> Making newsletter section.
 
-<b>Adalbert Tamás Balog:</b> Making..
+<b>Adalbert Tamás Balog:</b> Making product section.
 
 <b>Ádám Kovács:</b> Making home and about section.
 
 <b>Viktor Sárközi:</b> Making works gallery section.
 
-<b>Krisztián Palanek:</b> Making product section.
+<b>Krisztián Palanek:</b> Making contact section.
