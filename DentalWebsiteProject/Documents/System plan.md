@@ -2,7 +2,7 @@
 
 __Project plan:__
 <br> </br>
-
+[![Shedule](https://github.com/afplabor2019/asd123/blob/master/DentalWebsiteProject/Images/Shedule.png)](https://github.com/afplabor2019/asd123/blob/master/DentalWebsiteProject/Documents/Schedule.xlsx)
 
 
 __Business process model:__
