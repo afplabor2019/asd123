@@ -1,42 +1,20 @@
 # System plan
 
-__Project plan:__
-<br> </br>
+## Project plan:
+* ### Shedule:
 [![Shedule](https://github.com/afplabor2019/asd123/blob/master/DentalWebsiteProject/Images/Shedule.png)](https://github.com/afplabor2019/asd123/blob/master/DentalWebsiteProject/Documents/Schedule.xlsx)
 
+## Business process model:
 
-__Business process model:__
-<br> </br>
+## Requirements:
 
+## Functional plan:
 
+## Physical environment:
 
+## Architectural plan:
 
-__Requirements:__
-<br> </br>
-
-
-
-
-__Functional plan:__
-<br> </br>
-
-
-
-
-__Physical environment:__
-<br> </br>
-
-
-
-
-__Architectural plan:__
-<br> </br>
-
-
-
-
-__Database plan:__
-<br> </br>
+## Database plan:
 
 
 
