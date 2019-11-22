@@ -5,8 +5,10 @@
 [![Shedule](https://github.com/afplabor2019/asd123/blob/master/DentalWebsiteProject/Images/Shedule.png)](https://github.com/afplabor2019/asd123/blob/master/DentalWebsiteProject/Documents/Schedule.xlsx)
 
 ## Business process model:
+![Required business use cases model UML](https://github.com/afplabor2019/asd123/blob/master/DentalWebsiteProject/Images/funcSpecRequiredUML.png)
 
 ## Requirements:
+[Required business use cases model UML](https://github.com/afplabor2019/asd123/blob/master/DentalWebsiteProject/Documents/Requirement%20specification.md#required-functions-list)
 
 ## Functional plan:
  * ### System actors and use cases:
