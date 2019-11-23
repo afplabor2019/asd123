@@ -2,16 +2,24 @@
 
 ## Project plan:
 ### Project roles and their responsibilities
-##### Project Manager
-* Who the project manager is:
+#### Project Manager
+* Who the project manager is:  
 The project manager plays a primary role in the project, and responsible for planning, organizing, managing, controlling and communicating on all phases of a project. The goal is to complete the project successfully.
-* What the project manager does:
-The manager’s job is to ensure that the project proceeds within the specified time frame and under the established budget, while achieving its objectives. 
-The project manager makes sure that projects are given sufficient resources, while managing relationships with contributors and stakeholders, and develops the Project Plan with the team and manages the team's performance of project tasks.
+* What the project manager does:  
+The manager’s job is to ensure that the project proceeds within the specified time frame and under the established budget, while achieving its objectives. The project manager makes sure that projects are given sufficient resources, while managing relationships with contributors and stakeholders, and develops the Project Plan with the team and manages the team's performance of project tasks.
    * Responsible for communication, including status reporting, risk management, escalation of issues that cannot be resolved in the team.
    * Responsible for ongoing status reporting, including project health and tracking the financials of the project.
    * Responsible for overall management of the customer relationships and for closing the project in a controlled manner, and obtaining customer sign-off for the project closure document to formally close the project.
 
+#### Project Team Member
+* Who the project team is:  
+A project team includes a diverse combination of people and skills who have the responsibility of performing the project tasks assigned to them, in order to meet the project goals. Project team members are the individuals who actively work on one or more phases of the project. Team member roles can vary according to each project.
+What the project team does:  
+   * Assist the project manager in planning work packages, creating schedules and cost estimates.
+   * Responsible for completing assigned work on the project during the execute phase. This may include design, build, testing against requirements, operational assessment and implementation activities.
+   * Identify risks and opportunities throughout the project, and may help in formulating the appropriate responses to these.
+   * Actively participate in project team meetings and promptly communicate issues to the project manager.
+   
 ### Shedule:
 [![Shedule](https://github.com/afplabor2019/asd123/blob/master/DentalWebsiteProject/Images/Shedule.png)](https://github.com/afplabor2019/asd123/blob/master/DentalWebsiteProject/Documents/Schedule.xlsx)
 
