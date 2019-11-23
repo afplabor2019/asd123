@@ -1,1 +1,40 @@
-/* You can add global styles to this file, and also import other style files */
+:root {
+    --gray: #7a7581;
+    --dark_turquoise: #01b9b0;
+    --turquoise: #76C3C6;
+    --light_turquoise: #d3eae9;
+    --off-white: #f6f7f8;
+}
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    box-sizing: border-box;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    line-height: 1;
+    font-family: sans-serif;
+    background: var(--off-white);
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1300px;
+    display: flex;
+}
