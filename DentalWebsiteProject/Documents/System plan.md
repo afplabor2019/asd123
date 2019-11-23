@@ -1,7 +1,18 @@
 # System plan
 
 ## Project plan:
-* ### Shedule:
+### Project roles and their responsibilities
+##### Project Manager
+* Who the project manager is:
+The project manager plays a primary role in the project, and responsible for planning, organizing, managing, controlling and communicating on all phases of a project. The goal is to complete the project successfully.
+* What the project manager does:
+The manager’s job is to ensure that the project proceeds within the specified time frame and under the established budget, while achieving its objectives. 
+The project manager makes sure that projects are given sufficient resources, while managing relationships with contributors and stakeholders, and develops the Project Plan with the team and manages the team's performance of project tasks.
+   * Responsible for communication, including status reporting, risk management, escalation of issues that cannot be resolved in the team.
+   * Responsible for ongoing status reporting, including project health and tracking the financials of the project.
+   * Responsible for overall management of the customer relationships and for closing the project in a controlled manner, and obtaining customer sign-off for the project closure document to formally close the project.
+
+### Shedule:
 [![Shedule](https://github.com/afplabor2019/asd123/blob/master/DentalWebsiteProject/Images/Shedule.png)](https://github.com/afplabor2019/asd123/blob/master/DentalWebsiteProject/Documents/Schedule.xlsx)
 
 ## Business process model:
