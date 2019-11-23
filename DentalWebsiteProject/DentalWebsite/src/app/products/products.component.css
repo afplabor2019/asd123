@@ -1,0 +1,36 @@
+* {
+    padding: 5px;
+    font-size: large;
+    color: darkslategray;
+}
+
+.product-main-heading {
+    color: var(--off-white);
+    background: var(--dark_turquoise);
+    padding: 10px;
+}
+
+.product-sub-heading {
+    background: var(--turquoise);
+}
+
+.product-heading {
+    background: var(--light_turquoise);
+}
+
+.product-column {
+    flex: 1;
+}
+
+.product-column img {
+    width: 100%;
+    
+}
+
+#product-image {
+    flex: 1.5;
+}
+
+#onlay-image {
+    margin-top: 82px;
+}
