@@ -14,7 +14,7 @@
 #### Project Team Member
 * Who the project team is:  
    * A project team includes a diverse combination of people and skills who have the responsibility of performing the project tasks assigned to them, in order to meet the project goals. Project team members are the individuals who actively work on one or more phases of the project. Team member roles can vary according to each project.
-What the project team does:  
+* What the project team does:  
    * Assist the project manager in planning work packages, creating schedules and cost estimates.
    * Responsible for completing assigned work on the project during the execute phase. This may include design, build, testing against requirements, operational assessment and implementation activities.
    * Identify risks and opportunities throughout the project, and may help in formulating the appropriate responses to these.
@@ -23,7 +23,7 @@ What the project team does:
 #### Project Stakeholders
 * Who the project stakeholder is:  
    * Any individual whose interests may be affected as a result of project execution or project completion. 
-What the project stakeholder does:  
+* What the project stakeholder does:  
    * Provides information, as needed, to insure that the project stays on track and meets the intended goals and deliverables.
 
 ### Shedule:
