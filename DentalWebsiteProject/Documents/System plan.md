@@ -48,9 +48,14 @@ In the functional specification, we have already discussed the [Wireframes](http
 ## Physical environment:
 
 ## Architectural plan:
-
+We plan to implement this website as a 3-layered application consisting of the following:
+*	Database: A mongoDB database that stores data for the web page. It is only accessible throught the API.
+*	Rest API: Allows access to the data stored in the database. It implements the CRUD operation to all tables. It protects most method with a token system.
+* Client:
+   * User: Website where the user can view information about the company. It gets data from the API.
+   * Admin: Website for the admin to access and change all data stored in the database. It is also done throught the API.
 ## Database plan:
-
+![Database logical plan](https://github.com/afplabor2019/asd123/blob/master/DentalWebsiteProject/Images/Logical.png)
 
 
 
