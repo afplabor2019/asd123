@@ -1,0 +1,20 @@
+* {
+    padding: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 19px;
+    text-align: justify;
+}
+
+.about {
+    background: var(--light_turquoise);
+}
+
+.container img {
+    flex: 0.5;
+    width: 20%;
+}
+
+.container p {
+    flex: 1.5;
+}
