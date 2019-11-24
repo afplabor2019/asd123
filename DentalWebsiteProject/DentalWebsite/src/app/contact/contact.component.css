@@ -1,0 +1,73 @@
+/* Utility class */
+.bg-light {
+    background: var(--light_turquoise);
+}
+
+/* Contact section */
+#contact-list .container {
+    max-width: 1100px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+#contact-list .container h1 {
+    padding: 1.5rem;
+    font-size: 2.5rem;
+    color: var(--dark_turquoise);
+}
+
+#contact-list .container .box-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    text-align: center;
+}
+
+.box {
+    padding: 1rem 0;
+    min-width: 300px;
+}
+
+.box i {
+    padding: 1rem;
+    background: var(--dark_turquoise);
+    border-radius: 90%;
+    color: var(--off-white);
+}
+
+.box h3 {
+    padding: 1rem;
+    font-size: 1.5rem;
+    color: var(--gray);
+}
+
+/* Google map */
+.gmap_canvas {
+    overflow: hidden;
+    background: none !important;
+    padding: 0.25rem 0;
+}
+
+#gmap_canvas {
+    width: 100%;
+}
+
+/* Footer */
+#main-footer {
+    background: #444;
+    color: #fff;
+    padding: 2rem;
+    text-align: center;
+}
+
+#main-footer p {
+    font-size: 1.25rem;
+}
+
+@media screen and (max-width: 876px) {
+    #contact-list .container .box-container {
+        flex-direction: column;
+    }
+}
