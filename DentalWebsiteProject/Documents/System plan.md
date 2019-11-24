@@ -46,6 +46,8 @@ available at the [functional specification](Functional%20specification.md#Use-ca
 In the functional specification, we have already discussed the [Wireframes](https://github.com/afplabor2019/asd123/blob/master/DentalWebsiteProject/Documents/Functional%20specification.md#wireframes) of the websites' look, so you can check them there.
 
 ## Physical environment:
+We are going to be buy domain and web-hosting from nethely.hu.
+They provide the fastest SSD storage and we only need to do is implement our application into theirs servers.
 
 ## Architectural plan:
 We plan to implement this website as a 3-layered application consisting of the following:
