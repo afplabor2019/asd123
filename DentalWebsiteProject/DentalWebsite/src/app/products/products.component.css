@@ -1,13 +1,21 @@
 * {
-    padding: 5px;
     font-size: 14px;
     color: darkslategray;
+}
+
+.container {
+    flex-wrap: wrap;
+    padding: 20px 0px;
+}
+
+.product-column:nth-child(1), .product-column:nth-child(2) {
+    max-width: 180px;
 }
 
 .product-main-heading {
     color: var(--off-white);
     background: var(--dark_turquoise);
-    padding: 10px;
+    padding: 10px 5px;
 }
 
 .product-sub-heading {
@@ -22,6 +30,10 @@
     flex: 1;
 }
 
+.product-column p {
+    padding: 5px
+}
+
 .product-column img {
     width: 100%;
     
@@ -33,4 +45,8 @@
 
 #onlay-image {
     margin-top: 82px;
+}
+
+#column-end {
+    margin-right: 10px;
 }

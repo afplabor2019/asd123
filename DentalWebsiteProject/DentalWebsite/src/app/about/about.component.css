@@ -18,3 +18,9 @@
 .container p {
     flex: 1.5;
 }
+
+@media screen and (max-width: 876px) {
+    .container {
+        flex-direction: column;
+    }
+}
