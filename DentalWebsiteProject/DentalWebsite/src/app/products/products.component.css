@@ -16,7 +16,13 @@ h1 {
     color: var(--dark_turquoise);
 }
 .product-column:nth-child(1), .product-column:nth-child(2) {
-    max-width: 180px;
+    max-width: 196px;
+}
+.product-column:nth-child(3) {
+    max-width: 246px;
+}
+.product-column:nth-child(5) {
+    max-width: 202px;
 }
 
 .product-main-heading {
