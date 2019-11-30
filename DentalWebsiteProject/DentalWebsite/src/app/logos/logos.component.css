@@ -1,0 +1,31 @@
+.logos {
+    max-width: 1100px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.logo img {
+    flex: 1;
+    width: 25%;
+    padding: 30px;
+}
+.logo2 img {
+    flex: 1;
+    width: 33%;
+    padding: 15px 30px;
+}
+
+/* Footer */
+#main-footer {
+    background:var(--gray);
+    color:var(--off-white);
+    padding: 2rem;
+    text-align: center;
+}
+
+@media screen and (max-width: 876px) {
+    .logos .logo img {
+        flex-direction: column;
+    }
+}

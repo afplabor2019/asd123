@@ -1,6 +1,6 @@
 * {
     padding: 5px;
-    padding-top: 10px;
+    padding-top: 15px;
     padding-bottom: 10px;
     font-size: 19px;
     text-align: justify;
@@ -14,8 +14,13 @@ h1 {
     margin: auto;
     max-width: 1100px;
     padding: 1.5rem;
+}
+
+h1 span {
+    padding: 0.6rem;    
     font-size: 2.5rem;
-    color: var(--dark_turquoise);
+    color: rgba(246,247,248,1);
+    background-color:rgba(122,117,129,0.6);
 }
 
 .container img {
@@ -28,7 +33,7 @@ h1 {
 .fixed-bg {
     background-image: url("..\..\assets\img\8.jpg");
     background-color:black;
-    min-height: 500px;
+    min-height: 450px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;

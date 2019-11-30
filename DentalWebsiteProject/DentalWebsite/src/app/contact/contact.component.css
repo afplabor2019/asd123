@@ -54,18 +54,6 @@
     width: 100%;
 }
 
-/* Footer */
-#main-footer {
-    background: #444;
-    color: #fff;
-    padding: 2rem;
-    text-align: center;
-}
-
-#main-footer p {
-    font-size: 1.25rem;
-}
-
 @media screen and (max-width: 876px) {
     #contact-list .container .box-container {
         flex-direction: column;
