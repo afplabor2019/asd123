@@ -97,6 +97,23 @@ background-color: #d3eae9
   animation-duration: 1.5s;
 }
 
+article {
+  scroll-snap-type: y proximity;
+  /* Reserve space for header plus some extra space for sneak peeking. */
+  scroll-padding-top: 15vh;
+  overflow-y: scroll;
+}
+
+section {
+  /*Snap align start.*/
+  scroll-snap-align: start;
+}
+
+header {
+  position: fixed;
+  height: 10vh;
+}
+
 @-webkit-keyframes fade {
   from {opacity: .4}
   to {opacity: 1}
