@@ -1,6 +1,6 @@
 ## Record
 
-__Topic of discussion:__ Discuss the tasks required for DentalWebsiteProject
+__Topic of discussion:__ Opportunity to make website for a dental technician company 
 
 __Locale:__ Eszterházy Károly University in Eger
 
