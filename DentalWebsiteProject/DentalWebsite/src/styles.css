@@ -38,3 +38,19 @@ body {
     max-width: 1100px;
     display: flex;
 }
+
+article {
+   scroll-snap-type: y proximity;
+   /* Reserve space for header plus some extra space for sneak peeking. */
+   scroll-padding-top: 15vh;
+   overflow-y: scroll;
+}
+  
+section {
+  /*Snap align start.*/
+  scroll-snap-align: start;
+}
+  
+@media only screen and (max-width: 753px) {
+  .text {font-size: 11px}
+}
