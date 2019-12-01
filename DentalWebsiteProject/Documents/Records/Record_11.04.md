@@ -1,6 +1,6 @@
 ## Record
 
-__Topic of discussion:__ Discuss the system plan and assigning task.
+__Topic of discussion:__ Discuss the documents of project with the customer
 
 __Locale:__ Eszterházy Károly University in Eger
 
@@ -18,14 +18,19 @@ __Participants:__
   <thead>
   <tr>
     <td colspan=2><b><p align="center">Software development company</p></b></td>
+    <td colspan=2><b><p align="center">Client</p></b></td>
   </tr>
   </thead>
   <tr>
+    <td><b><p align="center">Name</p></b></td>
+    <td><b><p align="center">Position in the project</p></b>
     <td><b><p align="center">Name</p></b></td>
     <td><b><p align="center">Position in the project</p></b></td>
   </tr>
   <td><p align="center">Ádám Kovács</p></td>
   <td><p align="center">Project manager</p></td>
+  <td><p align="center">Péter Kovács</p></td>
+  <td><p align="center">Customer</p></td>
   </tr>
   <tr>
   <td><p align="center">Krisztián Palanek</p></td>
@@ -44,3 +49,6 @@ __Participants:__
   <td><p align="center">Web developer</p></td>
   </tr>  
 </table>
+
+### Discussion
+We showed the documents to the client, presented wireframes, explained what the different parts would look like, which colors we want to use, then we asked for texts for the descriptions of the website's parts, images for the design.
