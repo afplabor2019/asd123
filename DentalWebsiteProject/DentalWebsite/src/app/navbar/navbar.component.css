@@ -32,13 +32,11 @@ font-weight: bold;
 line-height: 50px;
 font-family: 'Trebuchet MS', sans-serif;
 }
+
 .logo
 { 
     height: 40px; 
     margin: 10px 20px;  
 }
-nav a:hover
-{
-    background: var(--dark_turquoise);
-    transition: 0.5s;
-}
+
+ul.nav a:hover { color:var(--dark_turquoise) !important}
