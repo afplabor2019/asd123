@@ -1,6 +1,6 @@
 ## Record
 
-__Topic of discussion:__ Discuss the documentation for DentalWebsiteProject
+__Topic of discussion:__ Accept the request to make a website
 
 __Locale:__ Eszterházy Károly University in Eger
 
@@ -18,14 +18,19 @@ __Participants:__
   <thead>
   <tr>
     <td colspan=2><b><p align="center">Software development company</p></b></td>
+    <td colspan=2><b><p align="center">Client</p></b></td>
   </tr>
   </thead>
   <tr>
+    <td><b><p align="center">Name</p></b></td>
+    <td><b><p align="center">Position in the project</p></b>
     <td><b><p align="center">Name</p></b></td>
     <td><b><p align="center">Position in the project</p></b></td>
   </tr>
   <td><p align="center">Ádám Kovács</p></td>
   <td><p align="center">Project manager</p></td>
+  <td><p align="center">Péter Kovács</p></td>
+  <td><p align="center">Customer</p></td>
   </tr>
   <tr>
   <td><p align="center">Krisztián Palanek</p></td>
@@ -43,4 +48,8 @@ __Participants:__
   <td><p align="center">Adalbert Tamás Balog</p></td>
   <td><p align="center">Web developer</p></td>
   </tr>  
-</table>
+</table> 
+
+### Discussion
+The ASD123 team accepted the request to build a website for the customer.  
+He outlined how the website should look and what he actually needs. Only one page, which contains a home, an about, a products, a gallery and a contact part. He also needs functions for price request and newsletter subscription. 
