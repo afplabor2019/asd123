@@ -1,0 +1,44 @@
+header
+{
+    top: 0; 
+    position: sticky;
+    display: flex;
+    background-color: #7a7581;
+}
+nav
+{
+   margin-left: auto;
+   vertical-align: center;
+   padding-top: 5px;
+   padding-right: 60px;
+    height: 40px;   
+}
+nav ul
+{
+    display: flex;  
+}
+nav ul li
+{
+    list-style: none;
+}
+nav ul li a
+{
+display: block;
+color: var(--off-white);
+padding: 0 30px;
+text-decoration: none;
+text-transform: uppercase;
+font-weight: bold;
+line-height: 50px;
+font-family: 'Trebuchet MS', sans-serif;
+}
+.logo
+{ 
+    height: 40px; 
+    margin: 10px 20px;  
+}
+nav a:hover
+{
+    background: var(--dark_turquoise);
+    transition: 0.5s;
+}
