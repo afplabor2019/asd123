@@ -1,7 +1,7 @@
 * {
     padding: 5px;
     padding-top: 15px;
-    padding-bottom: 10px;
+    padding-bottom: 15px;
     font-size: 19px;
     text-align: justify;
 }
@@ -25,10 +25,9 @@ h1 span {
 
 .container img {
     flex: 0.5;
-    width: 28%;
+    width: 39%;
     padding: 0px;
 }
-
 
 .fixed-bg {
     background-image: url("..\..\assets\img\8.jpg");
@@ -57,8 +56,8 @@ h4{
     font-size: 1.5rem; 
 }
 h5{
-    font-size: 1.1rem;
-    line-height: 16pt;
+    font-size: 1.2rem;
+    line-height: 19pt;
 }
 
 @media screen and (max-width: 876px) {
