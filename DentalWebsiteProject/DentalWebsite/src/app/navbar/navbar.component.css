@@ -40,3 +40,9 @@ font-family: 'Trebuchet MS', sans-serif;
 }
 
 ul.nav a:hover { color:var(--dark_turquoise) !important}
+
+@media screen and (max-width: 876px) {
+    ul.nav {
+        flex-direction: column;
+    }
+}
