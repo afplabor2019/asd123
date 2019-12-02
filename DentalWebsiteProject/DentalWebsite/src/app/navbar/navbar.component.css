@@ -15,6 +15,10 @@ nav ul
     display: flex; 
 }
 
+.mainNav{
+  padding-left: 29%;  
+}
+
 nav ul li
 {
     list-style: none;
@@ -35,7 +39,7 @@ line-height: 50px;
 
 .logo
 { 
-    height: 40px; 
+    height: 41px; 
 }
 
 nav a:hover { color:var(--dark_turquoise) !important}
@@ -69,10 +73,6 @@ a.icon i {
 #mobile-nav ul {
   background: #7a7581;
   flex-direction: column;
-}
-
-#mobile-nav {
-  display: none;
 }
 
 #nav-container {

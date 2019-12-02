@@ -71,7 +71,7 @@
     font-size: 60px;
   }
   
-  @media screen and (max-height: 600px) {
+  @media screen and (max-height: 570px) {
     .overlay a {font-size: 20px}
     .overlay .closebtn {
       font-size: -webkit-xxx-large;
