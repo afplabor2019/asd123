@@ -18,14 +18,19 @@ __Participants:__
   <thead>
   <tr>
     <td colspan=2><b><p align="center">Software development company</p></b></td>
+    <td colspan=2><b><p align="center">Client</p></b></td>
   </tr>
   </thead>
   <tr>
+    <td><b><p align="center">Name</p></b></td>
+    <td><b><p align="center">Position in the project</p></b>
     <td><b><p align="center">Name</p></b></td>
     <td><b><p align="center">Position in the project</p></b></td>
   </tr>
   <td><p align="center">Ádám Kovács</p></td>
   <td><p align="center">Project manager</p></td>
+  <td><p align="center">Péter Kovács</p></td>
+  <td><p align="center">Customer</p></td>
   </tr>
   <tr>
   <td><p align="center">Krisztián Palanek</p></td>
@@ -45,14 +50,5 @@ __Participants:__
   </tr>  
 </table>
 
-__Task per person:__
-
-<b>Dávid Attila Eperjesi:</b> Making newsletter sign-up and email contact section.
-
-<b>Adalbert Tamás Balog:</b> Making product section.
-
-<b>Ádám Kovács:</b> Making home and about section.
-
-<b>Viktor Sárközi:</b> Making works gallery section.
-
-<b>Krisztián Palanek:</b> Making contact section.
+We finally received the descriptions and images we needed before the meeting with the client, so we could show the correct website with the right contents to him.  
+He didn't find any problem in the look and design, then we informed him that we would begin a detailed and thorough testing of the website in the coming weeks.
