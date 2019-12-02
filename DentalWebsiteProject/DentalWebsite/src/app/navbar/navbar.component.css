@@ -3,8 +3,8 @@ header
     top: 0; 
     position: sticky;
     display: flex;
-    background-color: #7a7581;
-}
+    background-color: #7a7581;  
+} 
 nav
 {
     z-index: 9999;
@@ -12,7 +12,7 @@ nav
    vertical-align: center;
    padding-top: 5px;
    padding-right: 60px;
-    height: 40px;   
+   height: 40px;    
 }
 nav ul
 {

@@ -1,0 +1,40 @@
+*{
+    font-size: 19px;
+    text-align: center;
+}
+
+.container img {
+    width: 40%;
+}
+ 
+.advertisement {
+    background: var(--off-white);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.advclass {
+    color: var(--gray);
+    background: rgba(211, 234, 233, 0.7);
+    padding: 20px;
+}
+
+.advclass .ap1 {
+    font-size: 3rem;
+    line-height: 70px;
+}
+.advclass .ap2 {
+    font-size: 2rem;
+    line-height: 70px;
+}
+.advclass .ap3 {
+    padding-top: 80px;
+    line-height: 30px;
+    font-size: 1.3rem;
+}
+
+@media screen and (max-width: 876px) {
+    .container {
+        flex-direction: column;
+    }
+}
