@@ -1,6 +1,6 @@
 ## Record
 
-__Topic of discussion:__ Discussing the preparation of a system plan.
+__Topic of discussion:__ Discussing the appropriateness of the design
 
 __Locale:__ Eszterházy Károly University in Eger
 

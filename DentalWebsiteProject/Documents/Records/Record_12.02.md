@@ -1,10 +1,10 @@
 ## Record
 
-__Topic of discussion:__ Discussing the appropriateness of the right design and content
+__Topic of discussion:__ Testing the functions of the website with the client
 
 __Locale:__ Eszterházy Károly University in Eger
 
-__Date / Time:__ 2019.11.18, 13:40
+__Date / Time:__ 2019.12.02, 13:40
 
 __Made by:__ Viktor Sárközi
 
@@ -51,5 +51,5 @@ __Participants:__
 </table>
 
 ### Discussion
-We finally received the descriptions and images we needed before the meeting with the client, so we could show the correct website with the right contents to him.  
-He didn't find any problem in the look and design, then we informed him that we would begin a detailed and thorough testing of the website in the coming weeks.
+Final discussion and testing before we can declare the site completely ready and deliver it to the client. We showed how the admin page works, and what functions it has got. It was easy to handle the website for him, he understood the things fast, it was not too complex.
+
