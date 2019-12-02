@@ -24,7 +24,6 @@ h1 span {
 }
 
 .container img {
-    flex: 0.5;
     width: 39%;
     padding: 0px;
 }
@@ -45,8 +44,7 @@ h1 span {
 }
 
 .aboutText{
-    background-color:rgba(122,117,129,0.6);
-    flex: 1.5;
+    background-color:rgba(122,117,129,0.6); 
 }
 
 h2{

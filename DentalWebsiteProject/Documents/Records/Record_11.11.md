@@ -18,14 +18,19 @@ __Participants:__
   <thead>
   <tr>
     <td colspan=2><b><p align="center">Software development company</p></b></td>
+    <td colspan=2><b><p align="center">Client</p></b></td>
   </tr>
   </thead>
   <tr>
+    <td><b><p align="center">Name</p></b></td>
+    <td><b><p align="center">Position in the project</p></b>
     <td><b><p align="center">Name</p></b></td>
     <td><b><p align="center">Position in the project</p></b></td>
   </tr>
   <td><p align="center">Ádám Kovács</p></td>
   <td><p align="center">Project manager</p></td>
+  <td><p align="center">Péter Kovács</p></td>
+  <td><p align="center">Customer</p></td>
   </tr>
   <tr>
   <td><p align="center">Krisztián Palanek</p></td>
@@ -45,8 +50,9 @@ __Participants:__
   </tr>  
 </table>
 
-__Activities per person:__
+### Discussion
+We presented the mockup to the client, then he suggested some changes about it, but overall it was good, he praised our creativity. 
+He liked the design, colors and  the content.  
+It is important to note, that the client is late with the right images and content but promised he would send it soon.
 
-<b>Dávid Attila Eperjesi</b> and <b>Adalbert Tamás Balog:</b> Finalizing the schedule.
 
-<b>Ádám Kovács</b> and <b>Viktor Sárközi:</b> Distribution of system plan tasks.

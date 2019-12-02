@@ -10,6 +10,8 @@ import { ContactComponent } from './contact/contact.component';
 import { SlideshowComponent } from './slideshow/slideshow.component';
 import { LogosComponent } from './logos/logos.component';
 import { NavbarComponent } from './navbar/navbar.component';
+import { AdvertisementComponent } from './advertisement/advertisement.component';
+import { EmailComponent } from './email/email.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +22,9 @@ import { NavbarComponent } from './navbar/navbar.component';
     ContactComponent,
     SlideshowComponent,
     LogosComponent,
-    NavbarComponent
+    NavbarComponent,
+    AdvertisementComponent,
+    EmailComponent
   ],
   imports: [
     BrowserModule,

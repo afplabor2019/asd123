@@ -9,9 +9,6 @@
 .home {
     background: var(--dark_turquoise);
 }
-.container{
-    flex: 1.5;
-}
 
 h1 {
     margin: auto;
@@ -22,8 +19,7 @@ h1 {
 }
 
 h1 img {
-    flex: 0.5;
-    width: 3.5%;
+    width: 35px;
     padding: 0px;
 }
 

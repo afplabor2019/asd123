@@ -7,30 +7,34 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SlideshowComponent implements OnInit {
 
-  constructor() { }
+   slideIndex : number;
+  constructor() { this.slideIndex = 1;}
 
   ngOnInit() {
-    var slideIndex = 0;
-    showSlides();
-    function showSlides() {
-      var i;
+    this.showSlides(this.slideIndex);
+    }    
+    showSlides(slideIndex);
+    showSlides(n)
+    {
+    var i;
       var slides = document.getElementsByClassName("mySlides") as HTMLCollectionOf<HTMLElement>;
-      
       var dots = document.getElementsByClassName("dot");
+      if (n > slides.length) {this.slideIndex = 1}
+      if (n < 1) {this.slideIndex = slides.length}
       for (i = 0; i < slides.length; i++) {
-        slides[i].style.display = "none";
+          slides[i].style.display = "none";
       }
-      slideIndex++;
-      if (slideIndex > slides.length) {slideIndex = 1}
       for (i = 0; i < dots.length; i++) {
-        dots[i].className = dots[i].className.replace(" active", "");
+          dots[i].className = dots[i].className.replace(" active", "");
       }
-      slides[slideIndex-1].style.display = "block";
-      dots[slideIndex-1].className += " active";
-      setTimeout(showSlides, 8000); 
-    }
-   
+      slides[this.slideIndex-1].style.display = "block";
+      dots[this.slideIndex-1].className += " active";
   }
-    
+  plusSlides(n) {
+    this.showSlides(this.slideIndex += n);
+   }
+   currentSlide(n) {
+    this.showSlides(this.slideIndex = n);
+  } 
 }
 
