@@ -1,13 +1,29 @@
-<header>
-        <a href="#1"><img img src="assets\img\dental_logo.png" class="logo"></a>
-        <nav>                                   
-          <ul class="nav">
-            <li><a href="#1" class="active">Bemutatkozás</a></li>
-            <li><a href="#2">Rólunk</a></li>
-            <li><a href="#3">Galléria</a></li>
-            <li><a href="#4">Termékek</a></li>
-            <li><a href="#5">Elérhetőségek</a></li>
-          </ul>      
-        </nav>
-   
-      </header>
+<nav id="main-nav">
+  <a href="#1"><img img src="assets\img\dental_logo.png" class="logo"></a>
+  <ul id="myLinks">
+    <li><a href="#1" class="active">Bemutatkozás</a></li>
+    <li><a href="#2">Rólunk</a></li>
+    <li><a href="#3">Galléria</a></li>
+    <li><a href="#4">Termékek</a></li>
+    <li><a href="#5">Elérhetőségek</a></li>
+  </ul>
+
+</nav>
+
+<nav id="nav-container">
+  <div class="container">
+    <a href="#1"><img img src="assets\img\dental_logo.png" class="logo"></a>
+    <a class="icon" (click)="myFunction()">
+      <i class="fa fa-bars fa-2x"></i>
+    </a>
+  </div>
+  <div id="mobile-nav">
+    <ul>
+      <li><a href="#1" class="active">Bemutatkozás</a></li>
+      <li><a href="#2">Rólunk</a></li>
+      <li><a href="#3">Galléria</a></li>
+      <li><a href="#4">Termékek</a></li>
+      <li><a href="#5">Elérhetőségek</a></li>
+    </ul>
+  </div>
+</nav>

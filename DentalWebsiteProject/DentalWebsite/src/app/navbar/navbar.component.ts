@@ -10,5 +10,21 @@ export class NavbarComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+    
  }
+ myFunction() {
+  var x = document.getElementById("mobile-nav");
+
+  // if (x.style.flexDirection === "row") {
+  //   x.style.flexDirection = "column";
+  // }
+  // else {
+  //   x.style.flexDirection = "row";
+  // }
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
 }

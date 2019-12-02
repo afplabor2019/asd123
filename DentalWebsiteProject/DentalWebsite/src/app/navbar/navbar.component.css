@@ -1,17 +1,12 @@
-header
+nav
 {
     top: 0; 
     position: sticky;
     display: flex;
     background-color: #7a7581;
-}
-nav
-{
-   margin-left: auto;
-   vertical-align: center;
-   padding-top: 5px;
-   padding-right: 60px;
-    height: 40px;   
+    margin-left: auto;
+    vertical-align: center;
+    height: 60px;
 }
 nav ul
 {
@@ -20,29 +15,79 @@ nav ul
 nav ul li
 {
     list-style: none;
+    display: block;
+    padding-top: 5px;
 }
 nav ul li a
 {
 display: block;
 color: var(--off-white);
-padding: 0 30px;
+padding: 0 20px;
 text-decoration: none;
 text-transform: uppercase;
 font-weight: bold;
 line-height: 50px;
-font-family: 'Trebuchet MS', sans-serif;
 }
 
 .logo
 { 
     height: 40px; 
-    margin: 10px 20px;  
 }
 
 ul.nav a:hover { color:var(--dark_turquoise) !important}
 
+/* Style navigation menu links */
+nav a {
+  color: white;
+  padding: 8px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+/* Style the hamburger menu */
+a.icon {
+  margin-left: auto;
+  display: none;
+  background: #7a7581;
+  text-align: right;
+}
+
+a.icon i {
+  color: #fff;
+  padding-top: 5px;
+}
+
+#mobile-nav {
+  display: none;
+}
+
+#mobile-nav ul {
+  background: #7a7581;
+  flex-direction: column;
+}
+
+#mobile-nav {
+  display: none;
+}
+
+#nav-container {
+  display: none;
+}
+
+#nav-container ul {
+  flex-wrap: wrap;
+}
+
+#nav-container:nth-child(1) {
+  flex-basis: 100%;
+}
+
 @media screen and (max-width: 876px) {
-    ul.nav {
-        flex-direction: column;
-    }
+  #nav-container {
+    display: block;
+  }
+  #main-nav {
+    display: none;
+  }
 }
