@@ -1,0 +1,33 @@
+<section class = "email" >
+    <div class="icon-bar">
+        <span (click)="openNav()"><a href="#" class="gmail"><i class="fa fa-envelope" aria-hidden="true"></i></a></span>
+    </div>
+    <div id="myNav" class="overlay">
+        <a href="javascript:void(0)" class="closebtn" (click)="closeNav()">&times;</a>
+        <div class="overlay-content">
+            <form>
+                <h2>Kapcsolat felvétel</h2><br>
+                <p>
+                    <label>Név</label><br>
+                    <input type="text" placeholder="Kiss István">
+                </p>
+                <p>
+                    <label>Email cím</label><br>
+                    <input type="text" placeholder="kispisti99@peldaemail.hu">
+                </p>
+                <p>
+                    <label>Tárgy</label><br>
+                    <input type="text" value="Árajánlat kérés">
+                </p>
+                <p>
+
+                    <label>Üzenet</label><br>
+                    <textarea placeholder="Az ön üzenete..." rows="50"></textarea><br>
+                    <input type="checkbox" checked>
+                    <label>Feliratkozás a hírlevélre!</label><br>
+                </p>
+                <p><button class="button" type="submit">Küldés</button></p>
+            </form>
+        </div>
+    </div>
+</section>
