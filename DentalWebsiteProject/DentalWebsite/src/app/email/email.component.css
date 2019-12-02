@@ -47,6 +47,9 @@
     margin-top: 30px;
     color: #818181;
   }
+  .overlay-content h2 {
+    font-size: 50px;
+  }
   
   .overlay a {
     padding: 8px;
