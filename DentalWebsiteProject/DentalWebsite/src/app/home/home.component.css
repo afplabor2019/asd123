@@ -30,7 +30,7 @@ h2{
     padding-top: -0.5rem;
 }
 
-@media screen and (max-width: 876px) {
+@media screen and (max-width: 900px) {
     .container {
         flex-direction: column;
     }

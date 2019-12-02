@@ -54,8 +54,8 @@
     width: 100%;
 }
 
-@media screen and (max-width: 876px) {
-    #contact-list .container .box-container {
+@media screen and (max-width: 900px) {
+    .bg-light .container .box-container {
         flex-direction: column;
     }
 }

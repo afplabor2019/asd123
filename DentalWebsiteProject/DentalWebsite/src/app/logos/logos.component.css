@@ -24,7 +24,7 @@
     text-align: center;
 }
 
-@media screen and (max-width: 876px) {
+@media screen and (max-width: 900px) {
     .logos .logo img {
         flex-direction: column;
     }

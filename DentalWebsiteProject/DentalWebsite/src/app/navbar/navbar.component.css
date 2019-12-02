@@ -13,10 +13,7 @@ nav
 nav ul
 {
     display: flex; 
-}
-
-.mainNav{
-  padding-left: 29%;  
+    margin-left: auto;
 }
 
 nav ul li
@@ -87,7 +84,7 @@ a.icon i {
   flex-basis: 100%;
 }
 
-@media screen and (max-width: 876px) {
+@media screen and (max-width: 900px) {
   #nav-container {
     display: block;
   }

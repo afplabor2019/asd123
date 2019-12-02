@@ -58,7 +58,7 @@ h5{
     line-height: 19pt;
 }
 
-@media screen and (max-width: 876px) {
+@media screen and (max-width: 900px) {
     .container {
         flex-direction: column;
     }
