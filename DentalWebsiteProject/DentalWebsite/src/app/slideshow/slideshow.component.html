@@ -43,24 +43,27 @@
  
   <img src="assets\img\9.JPG" style="width:100%">
 </div>
+    <a class="prev" (click)="plusSlides(-1)">&#10094;</a>
+    <a class="next" (click)="plusSlides(1)">&#10095;</a>
 </div>
 
 <br>
 
-<div class="picture-navigation" style="text-align:center">
-  <span class="dot"></span>
-  <span class="dot"></span>
-  <span class="dot"></span>
-  <span class="dot"></span>
-  <span class="dot"></span>
-  <span class="dot"></span>
-  <span class="dot"></span>
-  <span class="dot"></span>
-  <span id="4"class="dot"></span>
-</div>
+<div style="text-align:center">
+    <span class="dot" (click)="currentSlide(1)"></span>
+    <span class="dot" (click)="currentSlide(2)"></span>
+    <span class="dot" (click)="currentSlide(3)"></span>
+    <span class="dot" (click)="currentSlide(4)"></span>
+    <span class="dot" (click)="currentSlide(5)"></span>
+    <span class="dot" (click)="currentSlide(6)"></span>
+    <span class="dot" (click)="currentSlide(7)"></span>
+    <span class="dot" (click)="currentSlide(8)"></span>
+    <span id= "4"class="dot" (click)="currentSlide(9)"></span>
+  </div>
 <div class="also">
 <h1 >hello</h1>
   </div>
+  
   </section>
   
 
