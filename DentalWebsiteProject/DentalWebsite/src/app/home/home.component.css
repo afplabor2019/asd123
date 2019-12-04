@@ -34,4 +34,7 @@ h2{
     .container {
         flex-direction: column;
     }
+    h2{
+        font-size: 1.50rem;
+    }
 }
