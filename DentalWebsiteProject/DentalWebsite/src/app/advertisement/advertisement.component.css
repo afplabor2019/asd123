@@ -37,4 +37,7 @@
     .container {
         flex-direction: column;
     }
+    .container  {
+        display: none;
+    }
 }
