@@ -24,7 +24,7 @@ h1 span {
 }
 
 .container img {
-    width: 39%;
+    max-width: 400px;
     padding: 0px;
 }
 
