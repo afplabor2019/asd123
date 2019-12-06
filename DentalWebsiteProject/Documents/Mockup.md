@@ -13,6 +13,9 @@
 
 ![Mockup](https://github.com/afplabor2019/asd123/blob/master/DentalWebsiteProject/Images/Mockup_3.jpg)
 
++ There are differences in size between the different devices when displaying the contact section.
+
+![Mockup](https://github.com/afplabor2019/asd123/blob/master/DentalWebsiteProject/Images/Mockup_4.jpg)
 
  + These representations reflect the almost final form of the web page!
  
