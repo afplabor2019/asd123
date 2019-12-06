@@ -2,7 +2,7 @@
 
 These projects were generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.8.
 
-##Prerequisites
+## Prerequisites
 
 Before you begin, make sure your development environment includes Node.js® and an npm package manager. Angular requires Node.js version 10.9.0 or later, to get Node.js, go to [nodejs.org](https://nodejs.org/en/).
 
