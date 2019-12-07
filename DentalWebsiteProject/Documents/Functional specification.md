@@ -40,17 +40,9 @@ Grouped by users:
 <li>Sending price lists requested by users also extends the opportunities of the Manager.</li>
 </ul>
 
-## Wireframes
-+ Wireframe of the Home page:
-![Home page](https://github.com/afplabor2019/asd123/blob/master/DentalWebsiteProject/Images/Wf_Home.png)
-+ Wireframe of the About page:
-![About page](https://github.com/afplabor2019/asd123/blob/master/DentalWebsiteProject/Images/Wf_About.png)
-+ Wireframe of the Product page:
-![Product page](https://github.com/afplabor2019/asd123/blob/master/DentalWebsiteProject/Images/Wf_Product.png)
-+ Wireframe of Our works page:
-![Our works page](https://github.com/afplabor2019/asd123/blob/master/DentalWebsiteProject/Images/Wf_Our_works.png)
-+ Wireframe of the Contact page:
-![Contact page](https://github.com/afplabor2019/asd123/blob/master/DentalWebsiteProject/Images/Wf_Contact.png)
+## Wireframe
++ Wireframe of the full website:
+![Home page](https://github.com/afplabor2019/asd123/blob/master/DentalWebsiteProject/Images/wireframeOftheWebsite)
 ## Scenario
 There is a website with five pages and each one serves a different purpose.  
 First, when users open the website, the home page is the landing page, where they can see what they can find and do on the website. Users can reach the page with the <b>Home</b> button too. There is the company's name, logo, some pictures, and supporters' logos.  
