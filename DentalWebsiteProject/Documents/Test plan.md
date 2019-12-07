@@ -2,23 +2,32 @@
 
 <table>
   <tr>
+    <td><b><p>Project Name</p></b></td>
+    <td><p>DentalWebsiteProject</p></td>
+  </tr>
+  <tr>
     <td><b><p>Document ID</p></b></td>
-    <td><b><p>R4V5R</p></b>
+    <td><p>R4V5R</p>
   </tr>
     <td><b><p>Qualification</p></b></td>
-  <td><p>Approved</p></td>
+  <td><p>Planned</p></td>
   </tr>
   <tr>
-    <td><b><p>Version number</p></b></td>
-  <td><p>1.0.0</p></td>
-  </tr>
-  <tr>
-    <td><b><p>Name of the project</p></b></td>
-  <td><p>DentalWebsiteProject</p></td>
+    <td><b><p>Document Version</p></b></td>
+  <td><p>1.1.1</p></td>
   </tr>
 </table>
 
-##Tests
+## The purpose of the testing
+
+* Testing is really required to point out the defects and errors that were made during the development phases.
+* It’s essential since it makes sure that the customer finds the organization reliable and their satisfaction in the application is maintained.
+* It is very important to ensure the quality of the product. quality product delivered to the customers helps in gaining their confidence.
+* Testing is necessary in order to provide the facilities to the customers like the delivery of high quality product or software application which requires lower maintenance cost and hence results into more accurate, consistent and reliable results.
+* Testing is required for an effective performance of software application or product.
+* It’s important to ensure that the application should not result into any failures because it can be very expensive in the future or in the later stages of the development.
+
+## Type of tests
 
 ### Unit test
 Unit tests refer to testing isolated components, and we only focus on the unit that we are testing. In Angular, unit tests are written in the Jasmine framework, executed by test runner karma and runs in the browser. We run npm test from the package.json, then angular takes the configuration from the angular.json under the test object. The first file it invokes is the test.ts and takes the karma configuration from the karma.conf.js. In these files we can set up which browser we want to use, reporter configuration, which testing framework should be used, etc..  
