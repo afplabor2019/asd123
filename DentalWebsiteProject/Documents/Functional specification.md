@@ -42,7 +42,7 @@ Grouped by users:
 
 ## Wireframe
 + Wireframe of the full website:
-![Home page](https://github.com/afplabor2019/asd123/blob/master/DentalWebsiteProject/Images/wireframeOftheWebsite)
+![Fullwebsite](https://github.com/afplabor2019/asd123/blob/master/DentalWebsiteProject/Images/wireframeOftheWebsite)
 ## Scenario
 There is a website with five pages and each one serves a different purpose.  
 First, when users open the website, the home page is the landing page, where they can see what they can find and do on the website. Users can reach the page with the <b>Home</b> button too. There is the company's name, logo, some pictures, and supporters' logos.  
