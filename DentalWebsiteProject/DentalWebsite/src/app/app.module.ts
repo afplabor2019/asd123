@@ -12,6 +12,7 @@ import { LogosComponent } from './logos/logos.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { AdvertisementComponent } from './advertisement/advertisement.component';
 import { EmailComponent } from './email/email.component';
+import { AdminComponent } from './admin/admin.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { EmailComponent } from './email/email.component';
     LogosComponent,
     NavbarComponent,
     AdvertisementComponent,
-    EmailComponent
+    EmailComponent,
+    AdminComponent
   ],
   imports: [
     BrowserModule,
