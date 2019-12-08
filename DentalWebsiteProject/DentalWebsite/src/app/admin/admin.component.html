@@ -1,1 +1,63 @@
-<p>admin works!</p>
+<h1>Alkalmazott hozzáadás</h1>
+<form (submit)="OnAddSubmint()">
+    <div class="form-group">
+        <label>Név:</label>
+        <input type="text" class="form-control" [(ngModel)]="name" name="name">
+    </div>
+    <div class="form-group">
+        <label>Email:</label>
+        <input type="text" class="form-control" [(ngModel)]="email" name="email">
+    </div>
+    <div class="form-group">
+        <label>Telefonszám:</label>
+        <input type="text" class="form-control" [(ngModel)]="telephone" name="phone">
+    </div>
+    <div class="form-group">
+        <label>Szakterület:</label>
+        <input type="text" class="form-control" [(ngModel)]="specialization" name="specialization">
+    </div>
+    <div class="form-group">
+        <p>Bemutatkozó szöveg:</p>
+        <textarea rows="6" type="textarea"class="form-control" [(ngModel)]="introduction" name="introduction"></textarea>
+    </div>
+    <input type="submit" value="Submit" class="btn btn-primary">
+</form>
+<table>
+    <tr>
+        <td scope="col">
+            <h5>Név</h5>
+        </td>
+        <td scope="col">
+            <h5>Email</h5>
+        </td>
+        <td scope="col">
+            <h5>Telefonszám</h5>
+        </td>
+        <td scope="col">
+            <h5>Szakterület</h5>
+        </td>
+        <td scope="col">
+            <h5>Bemutatkozó</h5>
+        </td>
+    </tr>
+    <tr *ngFor="let employee of employees">
+        <td>
+            <h5>{{ employee.name }}</h5>
+        </td>
+        <td>
+            <h5>{{ employee.email }}</h5>
+        </td>
+        <td>
+            <h5>{{ employee.telephone }}</h5>
+        </td>
+        <td>
+            <h5>{{ employee.specialization }}</h5>
+        </td>
+        <td>
+            <h5>{{ employee.introduction }}</h5>
+        </td>
+        <td>
+            <button (click)="delete(employee._id)" class="btn btn-danger">Delete</button>
+        </td>
+    </tr>
+</table>

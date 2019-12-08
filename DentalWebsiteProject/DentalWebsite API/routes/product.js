@@ -4,7 +4,7 @@ var mongojs = require('mongojs');
 var db = mongojs('dentalDB', ['products']);
 var key = 'YcUcJwNM5sN9iSaNmGvF';
 
-router.get('/products', function (req, res, next) {
+router.get('/', function (req, res, next) {
     db.products.find(function (err, products) {
         if (err) {
             res.status(500).send(err);
@@ -15,7 +15,7 @@ router.get('/products', function (req, res, next) {
     });
 });
 
-router.get('/products/:id', function (req, res, next) {
+router.get('/:id', function (req, res, next) {
     db.products.findOne({ _id: mongojs.ObjectId(req.params.id) }, function (err, product) {
         if (err) {
             res.status(500).send(err);
@@ -29,7 +29,7 @@ router.get('/products/:id', function (req, res, next) {
     });
 });
 
-router.post('/products/:key', function (req, res, next) {
+router.post('/:key', function (req, res, next) {
     if (req.params.key == key) {
         const product = {
             name: req.body.name,
@@ -50,7 +50,7 @@ router.post('/products/:key', function (req, res, next) {
     }
 });
 
-router.delete('/products/:id&:key', function (req, res, next) {
+router.delete('/:id&:key', function (req, res, next) {
     if (req.params.key == key) {
         db.products.remove({ _id: mongojs.ObjectId(req.params.id) }, function (err, obj) {
             if (err) {
@@ -69,7 +69,7 @@ router.delete('/products/:id&:key', function (req, res, next) {
     }
 });
 
-router.put('/products/:id&:key', function (req, res, next) {
+router.put('/:id&:key', function (req, res, next) {
     if (req.params.key == key) {
         const updateProduct = {
             name: req.body.name,
