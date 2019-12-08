@@ -30,9 +30,7 @@ router.get('/:id', function (req, res, next) {
 });
 
 router.post('/:key', function (req, res, next) {
-    console.log(req.param.key);
     if (req.params.key == key) {
-        console.log("fuck");
         const employee = {
             name: req.body.name,
             specialization: req.body.specialization,
@@ -40,7 +38,6 @@ router.post('/:key', function (req, res, next) {
             email: req.body.email,
             telephone: req.body.telephone
         };
-        console.log(employee);
 
         db.employees.save(employee, function (err) {
             if (err) {

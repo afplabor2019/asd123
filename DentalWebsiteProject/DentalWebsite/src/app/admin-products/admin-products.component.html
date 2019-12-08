@@ -1,0 +1,34 @@
+<h1>Termék hozzáadás</h1>
+<form (submit)="OnAddProduct()">
+    <div class="form-group">
+        <label>Név:</label>
+        <input type="text" class="form-control" [(ngModel)]="name" name="name">
+    </div>
+    <div class="form-group">
+        <label>Kategória:</label>
+        <input type="text" class="form-control" [(ngModel)]="category" name="category">
+    </div>
+    <input type="submit" value="Submit" class="btn btn-primary">
+</form>
+<h1>Termékek listája</h1>
+<table>
+    <tr>
+        <td scope="col">
+            <h5>Név</h5>
+        </td>
+        <td scope="col">
+            <h5>Kategória</h5>
+        </td>
+    </tr>
+    <tr *ngFor="let product of products">
+        <td>
+            <h5>{{ product.name }}</h5>
+        </td>
+        <td>
+            <h5>{{ product.category }}</h5>
+        </td>
+        <td>
+            <button (click)="delete(product._id)" class="btn btn-danger">Törlés</button>
+        </td>
+    </tr>
+</table>

@@ -18,6 +18,7 @@ import { HttpClientModule } from '@angular/common/http';
 
 import { AddEmployeeService } from './services/add-employee.service';
 import { GetEmployeeService } from './services/get-employee.service';
+import { AdminProductsComponent } from './admin-products/admin-products.component';
 
 @NgModule({
   declarations: [
@@ -31,7 +32,8 @@ import { GetEmployeeService } from './services/get-employee.service';
     NavbarComponent,
     AdvertisementComponent,
     EmailComponent,
-    AdminComponent
+    AdminComponent,
+    AdminProductsComponent
   ],
   imports: [
     BrowserModule,

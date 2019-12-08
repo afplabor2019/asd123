@@ -22,6 +22,7 @@
     </div>
     <input type="submit" value="Submit" class="btn btn-primary">
 </form>
+<h1>Alkalmazottak listája</h1>
 <table>
     <tr>
         <td scope="col">
@@ -57,7 +58,8 @@
             <h5>{{ employee.introduction }}</h5>
         </td>
         <td>
-            <button (click)="delete(employee._id)" class="btn btn-danger">Delete</button>
+            <button (click)="delete(employee._id)" class="btn btn-danger">Törlés</button>
         </td>
     </tr>
 </table>
+<app-admin-products></app-admin-products>
