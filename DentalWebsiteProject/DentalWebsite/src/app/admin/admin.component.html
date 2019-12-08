@@ -1,5 +1,7 @@
-<h1>Alkalmazott hozzáadás</h1>
-<form (submit)="OnAddSubmint()">
+<section>
+<div class="container">
+    <form (submit)="OnAddSubmint()">
+            <h1>Alkalmazott hozzáadás</h1>
     <div class="form-group">
         <label>Név:</label>
         <input type="text" class="form-control" [(ngModel)]="name" name="name">
@@ -22,8 +24,8 @@
     </div>
     <input type="submit" value="Submit" class="btn btn-primary">
 </form>
-<h1>Alkalmazottak listája</h1>
 <table>
+        <h1>Alkalmazottak listája</h1>
     <tr>
         <td scope="col">
             <h5>Név</h5>
@@ -62,4 +64,6 @@
         </td>
     </tr>
 </table>
+</div>
+</section>
 <app-admin-products></app-admin-products>
