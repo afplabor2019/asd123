@@ -43,12 +43,6 @@
         <td scope="col">
             <h5>Szakterület</h5>
         </td>
-        <td scope="col">
-            <h5>Bemutatkozó</h5>
-        </td>
-        <td scope="col">
-            <h5>Kép</h5>
-        </td>
     </tr>
     <tr *ngFor="let employee of employees">
         <td>
@@ -64,12 +58,6 @@
             <h5>{{ employee.specialization }}</h5>
         </td>
         <td>
-            <h5>{{ employee.introduction }}</h5>
-        </td>
-        <td>
-            <h5>{{ employee.image }}</h5>
-        </td>
-        <td>
             <button (click)="delete(employee._id)" class="btn btn-danger">Törlés</button>
         </td>
     </tr>
@@ -77,3 +65,4 @@
 </div>
 </section>
 <app-admin-products></app-admin-products>
+<app-admin-subscribers></app-admin-subscribers>

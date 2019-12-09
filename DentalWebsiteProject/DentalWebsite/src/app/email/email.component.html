@@ -5,15 +5,15 @@
     <div id="myNav" class="overlay">
         <a href="javascript:void(0)" class="closebtn" (click)="closeNav()">&times;</a>
         <div class="overlay-content">
-            <form>
+            <form (submit)="OnAddSubmit()">
                 <h2>Kapcsolat felvétel</h2><br>
                 <p>
                     <label>Név</label><br>
-                    <input type="text" placeholder="Kiss István">
+                    <input type="text" placeholder="Kiss István" [(ngModel)]="name" name="name">
                 </p>
                 <p>
                     <label>Email cím</label><br>
-                    <input type="text" placeholder="kispisti99@peldaemail.hu">
+                    <input type="text" placeholder="kispisti99@peldaemail.hu" [(ngModel)]="email" name="email">
                 </p>
                 <p>
                     <label>Tárgy</label><br>
@@ -26,7 +26,7 @@
                     <input type="checkbox" checked>
                     <label>Feliratkozás a hírlevélre!</label><br>
                 </p>
-                <p><button class="button" type="submit">Küldés</button></p>
+                <p><input class="button" type="submit" value="Küldés"></p>
             </form>
         </div>
     </div>

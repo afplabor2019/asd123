@@ -5,7 +5,7 @@ var db = mongojs('dentalDB', ['subscribers']);
 var key = 'YcUcJwNM5sN9iSaNmGvF';
 var public_client_key = '2033792262';
 
-router.get('/', function (req, res, next) {
+router.get('/:key', function (req, res, next) {
     if (req.params.key == key) {
         db.subscribers.find(function (err, subscribers) {
             if (err) {
@@ -41,11 +41,12 @@ router.get('/:id', function (req, res, next) {
 });
 
 router.post('/:public_key', function (req, res, next) {
-    if (req.params.key == public_client_key) {
+    console.log(req.params.public_key);
+    if (req.params.public_key == public_client_key) {
         const subscriber = {
-            email: req.body.email
+            email: req.body.email,
+            name: req.body.name
         };
-
         db.subscribers.save(subscriber, function (err) {
             if (err) {
                 res.status(500).send(err);
