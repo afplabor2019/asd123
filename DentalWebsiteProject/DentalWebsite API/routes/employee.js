@@ -36,7 +36,8 @@ router.post('/:key', function (req, res, next) {
             specialization: req.body.specialization,
             introduction: req.body.introduction,
             email: req.body.email,
-            telephone: req.body.telephone
+            telephone: req.body.telephone,
+            image: req.body.image
         };
 
         db.employees.save(employee, function (err) {
@@ -79,7 +80,8 @@ router.put('/:id&:key', function (req, res, next) {
             specialization: req.body.specialization,
             introduction: req.body.introduction,
             email: req.body.email,
-            telephone: req.body.telephone
+            telephone: req.body.telephone,
+            image: req.body.image
         };
 
         db.employees.update({ _id: mongojs.ObjectId(req.params.id) }, updateEmployee, {}, function (err, obj) {

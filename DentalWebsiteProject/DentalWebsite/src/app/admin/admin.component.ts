@@ -15,6 +15,7 @@ export class AdminComponent implements OnInit {
   introduction: String;
   email: String;
   telephone: String;
+  image: String;
 
   employees: Employee[];
 
@@ -37,7 +38,8 @@ export class AdminComponent implements OnInit {
       specialization: this.specialization,
       introduction: this.introduction,
       email: this.email,
-      telephone: this.telephone
+      telephone: this.telephone,
+      image: this.image
     }
     this.addEmployeeService.addEmployee(employee);
   }

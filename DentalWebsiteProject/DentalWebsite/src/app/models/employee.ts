@@ -5,4 +5,5 @@ export class Employee {
     introduction: String;
     email: String;
     telephone: String;
+    image: String;
 }
