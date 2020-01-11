@@ -6,35 +6,50 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./slideshow.component.css']
 })
 export class SlideshowComponent implements OnInit {
+  static slideIndex : number;
 
-   slideIndex : number;
-  constructor() { this.slideIndex = 1;}
+  constructor() { SlideshowComponent.slideIndex = 1;}
 
   ngOnInit() {
-    this.showSlides(this.slideIndex);
-    }    
-    showSlides(slideIndex);
-    showSlides(n)
-    {
-    var i;
-      var slides = document.getElementsByClassName("mySlides") as HTMLCollectionOf<HTMLElement>;
-      var dots = document.getElementsByClassName("dot");
-      if (n > slides.length) {this.slideIndex = 1}
-      if (n < 1) {this.slideIndex = slides.length}
-      for (i = 0; i < slides.length; i++) {
-          slides[i].style.display = "none";
-      }
-      for (i = 0; i < dots.length; i++) {
-          dots[i].className = dots[i].className.replace(" active", "");
-      }
-      slides[this.slideIndex-1].style.display = "block";
-      dots[this.slideIndex-1].className += " active";
+    console.log(SlideshowComponent.slideIndex);
+    SlideshowComponent.loadSlide(SlideshowComponent.slideIndex);
+    setInterval(this.showSlides,10000);
   }
-  plusSlides(n) {
-    this.showSlides(this.slideIndex += n);
-   }
-   currentSlide(n) {
-    this.showSlides(this.slideIndex = n);
-  } 
-}
 
+  static loadSlide(index){
+    var slides,dots;   
+    slides = document.getElementsByClassName("mySlides") as HTMLCollectionOf<HTMLElement>;
+    dots = document.getElementsByClassName("dot"); 
+
+    if (index > slides.length) {index = 1}
+    else if (index < 1){
+      index = slides.length
+    }
+
+    for (var i = 0; i < slides.length; i++) {
+     slides[i].style.display = "none";
+    }
+
+    for (var i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+    }
+
+    slides[index-1].style.display = "block";
+    dots[index-1].className += " active";
+    this.slideIndex = index;
+  }
+
+  showSlides()
+  {
+    SlideshowComponent.slideIndex++;
+    SlideshowComponent.loadSlide(SlideshowComponent.slideIndex);
+  }
+ 
+  plusSlides(position) {
+    SlideshowComponent.loadSlide(SlideshowComponent.slideIndex + position);
+  }
+
+  goToSlide(slideIndex) {
+    SlideshowComponent.loadSlide(slideIndex);
+  }
+}
