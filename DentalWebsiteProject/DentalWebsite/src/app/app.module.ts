@@ -1,5 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { FormsModule } from '@angular/forms';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -12,6 +13,13 @@ import { LogosComponent } from './logos/logos.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { AdvertisementComponent } from './advertisement/advertisement.component';
 import { EmailComponent } from './email/email.component';
+import { AdminComponent } from './admin/admin.component';
+import { HttpClientModule } from '@angular/common/http';
+
+import { AddEmployeeService } from './services/add-employee.service';
+import { GetEmployeeService } from './services/get-employee.service';
+import { AdminProductsComponent } from './admin-products/admin-products.component';
+import { AdminSubscribersComponent } from './admin-subscribers/admin-subscribers.component';
 
 @NgModule({
   declarations: [
@@ -24,13 +32,18 @@ import { EmailComponent } from './email/email.component';
     LogosComponent,
     NavbarComponent,
     AdvertisementComponent,
-    EmailComponent
+    EmailComponent,
+    AdminComponent,
+    AdminProductsComponent,
+    AdminSubscribersComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule,
+    HttpClientModule
   ],
-  providers: [],
+  providers: [AddEmployeeService, GetEmployeeService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

@@ -1,0 +1,26 @@
+<section>
+    <div class="container">
+<h1>Feliratkozók listája</h1>
+<table>
+    <tr>
+        <td scope="col">
+            <h5>Név</h5>
+        </td>
+        <td scope="col">
+            <h5>Email</h5>
+        </td>
+    </tr>
+    <tr *ngFor="let subscriber of subscribers">
+        <td>
+            <h5>{{ subscriber.name }}</h5>
+        </td>
+        <td>
+            <h5>{{ subscriber.email }}</h5>
+        </td>
+        <td>
+            <button (click)="delete(product._id)" class="btn btn-danger">Törlés</button>
+        </td>
+    </tr>
+</table>
+</div>
+</section>
