@@ -21,28 +21,33 @@
 <table>
   <thead>
   <tr>
-    <td colspan=4><b><p align="center">UAT Assumptions and Constraints</p></b></td>
+    <td colspan=8><b><p align="center">UAT Assumptions and Constraints</p></b></td>
   </tr>
    </thead>
   <tr>
-    <td colspan=4><b><p align="left">Assumptions</p></b></td>
+    <td colspan=8><b><p align="left">Assumptions</p></b></td>
   </tr>
   <tr>
-    <td colspan=4><p>Test environment: The test cases are conducted by 1 team member and the customer, hardware and software is provided by the team </p></td>
-  </tr>
-    <tr>
-    <td colspan=4><p>Test documentation: All UAT test cases are documented within GitHub DentalWebsiteProject/Documents/Program tests </p></td>
-  </tr>
-    <tr>
-    <td colspan=4><b><p align="left">Constraints</p></b></td>
-  </tr>
-    <tr>
-    <td colspan=4 ><p>Human resources: 1 teammember and 1 customer </p></td>
-    <td colspan=4><p>Provided hardware: HP Probook </p></td>
-    <td colspan=4><p>Tested operating systems: Windows 10 </p></td>
-    <td colspan=4><p>Browser tests: Firefox(latest version), Chrome (latest version) </p></td>
+    <td colspan=6><p>Test environment: The test cases are conducted by 1 team member and the customer, hardware and software is provided by the team </p></td>
   </tr>
   <tr>
+    <td colspan=6><p>Test documentation: All UAT test cases are documented within GitHub DentalWebsiteProject/Documents/Program tests </p></td>
+  </tr>
+  <tr>
+    <td colspan=8><b><p align="left">Constraints</p></b></td>
+  </tr>
+      <tr>
+          <td colspan=6 ><p>Human resources: one teammember (Kovacs Adam) and one client (Kovacs Peter) </p></td>
+     </tr>
+      <tr>
+          <td colspan=6><p>Provided hardware: HP Probook </p></td>
+      </tr>
+      <tr>
+          <td colspan=6><p>Tested operating systems: Windows 10 </p></td>
+      </tr>
+      <tr>
+          <td colspan=6><p>Browser tests: Firefox(latest version), Chrome (latest version) </p></td>
+      </tr>
  </table> 
 
 ### UAT Requirements-based Test Cases
