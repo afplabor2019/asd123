@@ -1,39 +1,27 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
-
-import { Product } from '../models/product';
+import { ConstantsService } from './constants.service';
 
 @Injectable({
   providedIn: 'root'
 })
 export class AddProductService {
 
-  constructor(private http: HttpClient) { }
+  constructor(private http: HttpClient, private _constant: ConstantsService) { }
 
-  Route = 'http://localhost:3000/api';
-  key = 'YcUcJwNM5sN9iSaNmGvF';
+  route = this._constant.baseAppUrl + '/products/';
 
   addProduct(product) {
-    this.http.post(this.Route + '/products/' + this.key, product)
-      .subscribe(
-        (val) => {
-          console.log("POST call successful value returned in body",
-            val);
-        },
-        response => {
-          console.log("POST call in error", response);
-        },
-        () => {
-          console.log("The POST observable is now completed.");
-        }
-      );
+    this.http.post(this.route + sessionStorage.getItem("key"), product)
+      .subscribe(response => console.log(response)
+    );
   }
 
   deleteProduct(id) {
-    return this.http.delete(this.Route + `/products/${id}&` + this.key);
+    return this.http.delete(this.route + `${id}&` + sessionStorage.getItem("key"));
   }
 
-  updateRead(product) {
-    return this.http.put(this.Route + `/employees/${product._id}`, product);
+  updateProduct(product) {
+    return this.http.put(this.route + `${product._id}&` + sessionStorage.getItem("key"), product);
   }
 }

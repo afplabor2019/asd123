@@ -1,19 +1,18 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
-
-import { Subscriber } from '../models/subscriber';
+import { ConstantsService } from './constants.service';
 
 @Injectable({
   providedIn: 'root'
 })
 export class AddSubscriberService {
 
-  constructor(private http: HttpClient) { }
+  constructor(private http: HttpClient, private _constant: ConstantsService) { }
 
-  Route = 'http://localhost:3000/api';
-  key = '2033792262';
+  route: string = this._constant.baseAppUrl + '/subscribers/';
+
   addSubscriber(subscriber) {
-    this.http.post(this.Route + '/subscribers/' + this.key, subscriber)
+    this.http.post(this.route + this._constant.publicKey, subscriber)
       .subscribe(
         (val) => {
           console.log("POST call successful value returned in body",
@@ -29,10 +28,10 @@ export class AddSubscriberService {
   }
 
   deleteSubscriber(id) {
-    return this.http.delete(this.Route + `/subscribers/${id}&YcUcJwNM5sN9iSaNmGvF`);
+    return this.http.delete(this.route + `${id}&/` + sessionStorage.getItem("key"));
   }
 
-  updateRead(subscriber) {
-    return this.http.put(this.Route + `/subscribers/${subscriber._id}`, subscriber);
+  updateSubscriber(subscriber) {
+    return this.http.put(this.route + `${subscriber._id}&` + sessionStorage.getItem("key"), subscriber);
   }
 }

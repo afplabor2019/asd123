@@ -1,16 +1,18 @@
 import { Injectable } from '@angular/core';
-import { HttpClient, HttpHeaders } from '@angular/common/http'
+import { HttpClient } from '@angular/common/http'
 import { Observable } from 'rxjs';
-import { Subscriber } from '../models/subscriber';
+import { ConstantsService } from './constants.service';
 
 @Injectable({
   providedIn: 'root'
 })
 export class GetSubscriberService {
 
-  constructor(private http: HttpClient) { }
+  constructor(private http: HttpClient, private _constrant: ConstantsService) { }
+
+  route = this._constrant.baseAppUrl + '/subscribers/';
 
   getSubscriber(): Observable<any> {
-    return this.http.get('http://localhost:3000/api/subscribers/YcUcJwNM5sN9iSaNmGvF');
+    return this.http.get(this.route + sessionStorage.getItem("key"));
   }
 }

@@ -1,38 +1,33 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
-
-import { Employee } from '../models/employee';
+import { ConstantsService } from './constants.service';
 
 @Injectable({
   providedIn: 'root'
 })
 export class AddEmployeeService {
 
-  constructor(private http: HttpClient) { }
+  constructor(private http: HttpClient, private _constant: ConstantsService) { }
 
-  Route = 'http://localhost:3000/api';
+  route = this._constant.baseAppUrl + '/employees/';
 
   addEmployee(employee) {
-    this.http.post(this.Route + '/employees/YcUcJwNM5sN9iSaNmGvF', employee)
+    this.http.post(this.route + sessionStorage.getItem("key"), employee)
       .subscribe(
         (val) => {
-          console.log("POST call successful value returned in body",
-            val);
+            val;
         },
-        response => {
-          console.log("POST call in error", response);
-        },
-        () => {
-          console.log("The POST observable is now completed.");
+        error => {
+          alert(error);
         }
-      );
+    );
   }
 
   deleteEmployee(id) {
-    return this.http.delete(this.Route + `/employees/${id}&YcUcJwNM5sN9iSaNmGvF`);
+    return this.http.delete(this.route + `${id}&` + sessionStorage.getItem("key"));
   }
 
-  updateRead(employee) {
-    return this.http.put(this.Route + `/employees/${employee._id}`, employee);
+  updateEmployee(employee) {
+    return this.http.put(this.route + `${employee._id}&` + sessionStorage.getItem("key"), employee);
   }
 }

@@ -1,16 +1,18 @@
 import { Injectable } from '@angular/core';
-import { HttpClient, HttpHeaders } from '@angular/common/http'
+import { HttpClient } from '@angular/common/http'
 import { Observable } from 'rxjs';
-import { Employee } from '../models/employee';
+import { ConstantsService } from './constants.service';
 
 @Injectable({
   providedIn: 'root'
 })
 export class GetEmployeeService {
 
-  constructor(private http: HttpClient) { }
+  constructor(private http: HttpClient, private _constant: ConstantsService) { }
+
+  route = this._constant.baseAppUrl + '/employees/';
 
   getEmployees(): Observable<any> {
-    return this.http.get('http://localhost:3000/api/employees');
+    return this.http.get(this.route + sessionStorage.getItem("key"));
   }
 }
