@@ -21,7 +21,7 @@ router.get('/:id', function (req, res, next) {
             res.status(500).send(err);
         }
         else if (contact == null) {
-            res.status(404).send('Contact not found.');
+            res.status(404).send(JSON.stringify('Contact not found.'));
         }
         else {
             res.status(200).json(contact);
@@ -41,12 +41,12 @@ router.post('/:key', function (req, res, next) {
                 res.status(500).send(err);
             }
             else {
-                res.status(200).send('Contact sucessfully added.');
+                res.status(200).send(JSON.stringify('Contact sucessfully added.'));
             }
         });
     }
     else {
-        res.status(401).send('Invalid key.');
+        res.status(401).send(JSON.stringify('Invalid key.'));
     }
 });
 
@@ -57,15 +57,15 @@ router.delete('/:id&:key', function (req, res, next) {
                 res.status(500).send(err);
             }
             else if (obj.deletedCount == 0) {
-                res.status(404).send('Contact not found.');
+                res.status(404).send(JSON.stringify('Contact not found.'));
             }
             else {
-                res.status(200).send('Contact succesfully deleted.');
+                res.status(200).send(JSON.stringify('Contact succesfully deleted.'));
             }
         });
     }
     else {
-        res.status(401).send('Invalid key.');
+        res.status(401).send(JSON.stringify('Invalid key.'));
     }
 });
 
@@ -81,15 +81,15 @@ router.put('/:id&:key', function (req, res, next) {
                 res.status(500).send(err);
             }
             else if (obj.nModified == 0) {
-                res.status(404).send('Contact not found.');
+                res.status(404).send(JSON.stringify('Contact not found.'));
             }
             else {
-                res.status(200).send('Contact sucessfully updated.');
+                res.status(200).send(JSON.stringify('Contact sucessfully updated.'));
             }
         });
     }
     else {
-        res.status(401).send('Invalid key.');
+        res.status(401).send(JSON.stringify('Invalid key.'));
     }
 
 });

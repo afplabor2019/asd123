@@ -12,10 +12,10 @@ router.get('/:name&:password', function (req, res, next) {
         }
 
         if (req.params.name == user[0].name && bcrypt.compareSync(req.params.password, user[0].password)) {
-            res.status(200).send(key);
+            res.status(200).send(JSON.stringify(key));
         }
         else {
-            res.status(401).send('Invalid name or password.');
+            res.status(401).send(JSON.stringify("Invalid name or password."));
         }
     });
 });
@@ -32,12 +32,12 @@ router.put('/:key', function (req, res, next) {
                 res.status(500).send(err);
             }
             else {
-                res.status(200).send('Password updated.');
+                res.status(200).send(JSON.stringify('Password updated.'));
             }
         });
     }
     else {
-        res.status(401).send('Invalid key.');
+        res.status(401).send(JSON.stringify('Invalid key.'));
     }
 });
 

@@ -17,18 +17,18 @@ router.get('/:key', function (req, res, next) {
         });
     }
     else {
-        res.status(401).send('Invalid key.');
+        res.status(401).send(JSON.stringify('Invalid key.'));
     }
 });
 
-router.get('/:id', function (req, res, next) {
+router.get('/:id&:key', function (req, res, next) {
     if (req.params.key == key) {
         db.contacts.findOne({ _id: mongojs.ObjectId(req.params.id) }, function (err, subscriber) {
             if (err) {
                 res.status(500).send(err);
             }
             else if (subscriber == null) {
-                res.status(404).send('Subscriber not found.');
+                res.status(404).send(JSON.stringify('Subscriber not found.'));
             }
             else {
                 res.status(200).json(subscriber);
@@ -36,12 +36,11 @@ router.get('/:id', function (req, res, next) {
         });
     }
     else {
-        res.status(401).send('Invalid key.');
+        res.status(401).send(JSON.stringify('Invalid key.'));
     }
 });
 
 router.post('/:public_key', function (req, res, next) {
-    console.log(req.params.public_key);
     if (req.params.public_key == public_client_key) {
         const subscriber = {
             email: req.body.email,
@@ -52,12 +51,12 @@ router.post('/:public_key', function (req, res, next) {
                 res.status(500).send(err);
             }
             else {
-                res.status(200).send('Subscriber sucessfully added.');
+                res.status(200).send(JSON.stringify('Subscriber sucessfully added.'));
             }
         });
     }
     else {
-        res.status(401).send('Invalid key.');
+        res.status(401).send(JSON.stringify('Invalid key.'));
     }
 });
 
@@ -68,15 +67,15 @@ router.delete('/:id&:key', function (req, res, next) {
                 res.status(500).send(err);
             }
             else if (obj.deletedCount == 0) {
-                res.status(404).send('Subscriber not found.');
+                res.status(404).send(JSON.stringify('Subscriber not found.'));
             }
             else {
-                res.status(200).send('Subscriber succesfully deleted.');
+                res.status(200).send(JSON.stringify('Subscriber succesfully deleted.'));
             }
         });
     }
     else {
-        res.status(401).send('Invalid key.');
+        res.status(401).send(JSON.stringify('Invalid key.'));
     }
 });
 
@@ -91,15 +90,15 @@ router.put('/:id&:key', function (req, res, next) {
                 res.status(500).send(err);
             }
             else if (obj.nModified == 0) {
-                res.status(404).send('Subscriber not found.');
+                res.status(404).send(JSON.stringify('Subscriber not found.'));
             }
             else {
-                res.status(200).send('Subscriber sucessfully updated.');
+                res.status(200).send(JSON.stringify('Subscriber sucessfully updated.'));
             }
         });
     }
     else {
-        res.status(401).send('Invalid key.');
+        res.status(401).send(JSON.stringify('Invalid key.'));
     }
 
 });

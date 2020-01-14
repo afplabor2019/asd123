@@ -4,29 +4,33 @@ var mongojs = require('mongojs');
 var db = mongojs('dentalDB', ['products']);
 var key = 'YcUcJwNM5sN9iSaNmGvF';
 
-router.get('/', function (req, res, next) {
-    db.products.find(function (err, products) {
-        if (err) {
-            res.status(500).send(err);
-        }
-        else {
-            res.status(200).json(products);
-        }
-    });
+router.get('/:key', function (req, res, next) {
+    if (req.params.key == key) {
+        db.products.find(function (err, products) {
+            if (err) {
+                res.status(500).send(err);
+            }
+            else {
+                res.status(200).json(products);
+            }
+        });
+    }
 });
 
-router.get('/:id', function (req, res, next) {
-    db.products.findOne({ _id: mongojs.ObjectId(req.params.id) }, function (err, product) {
-        if (err) {
-            res.status(500).send(err);
-        }
-        else if (product == null) {
-            res.status(404).send('Product not found.');
-        }
-        else {
-            res.status(200).json(product);
-        }
-    });
+router.get('/:id&:key', function (req, res, next) {
+    if (req.params.key == key) {
+        db.products.findOne({ _id: mongojs.ObjectId(req.params.id) }, function (err, product) {
+            if (err) {
+                res.status(500).send(err);
+            }
+            else if (product == null) {
+                res.status(404).send(JSON.stringify('Product not found.'));
+            }
+            else {
+                res.status(200).json(product);
+            }
+        });
+    }
 });
 
 router.post('/:key', function (req, res, next) {
@@ -41,12 +45,12 @@ router.post('/:key', function (req, res, next) {
                 res.status(500).send(err);
             }
             else {
-                res.status(200).send('Product sucessfully added.');
+                res.status(200).send(JSON.stringify('Product sucessfully added.'));
             }
         });
     }
     else {
-        res.status(401).send('Invalid key.');
+        res.status(401).send(JSON.stringify('Invalid key.'));
     }
 });
 
@@ -57,15 +61,15 @@ router.delete('/:id&:key', function (req, res, next) {
                 res.status(500).send(err);
             }
             else if (obj.deletedCount == 0) {
-                res.status(404).send('Product not found.');
+                res.status(404).send(JSON.stringify('Product not found.'));
             }
             else {
-                res.status(200).send('Product succesfully deleted.');
+                res.status(200).send(JSON.stringify('Product succesfully deleted.'));
             }
         });
     }
     else {
-        res.status(401).send('Invalid key.');
+        res.status(401).send(JSON.stringify('Invalid key.'));
     }
 });
 
@@ -81,15 +85,15 @@ router.put('/:id&:key', function (req, res, next) {
                 res.status(500).send(err);
             }
             else if (obj.nModified == 0) {
-                res.status(404).send('Product not found.');
+                res.status(404).send(JSON.stringify('Product not found.'));
             }
             else {
-                res.status(200).send('Product sucessfully updated.');
+                res.status(200).send(JSON.stringify('Product sucessfully updated.'));
             }
         });
     }
     else {
-        res.status(401).send('Invalid key.');
+        res.status(401).send(JSON.stringify('Invalid key.'));
     }
 
 });
