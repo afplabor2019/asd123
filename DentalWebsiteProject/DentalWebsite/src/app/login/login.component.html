@@ -1,0 +1,16 @@
+<section>
+    <div class="container">
+        <form (submit)="OnLoginSubmit()">
+            <h1>Bejelentkezés</h1>
+            <div class="form-group">
+                <label>Username:</label>
+                <input type="text" class="form-control" [(ngModel)]="name" name="name">
+            </div>
+            <div class="form-group">
+                <label>Jelszó:</label>
+                <input type="password" class="form-control" [(ngModel)]="password" name="password">
+            </div>
+            <input type="submit" value="Bejelentkezés" class="btn btn-primary">
+        </form>
+    </div>
+</section>
