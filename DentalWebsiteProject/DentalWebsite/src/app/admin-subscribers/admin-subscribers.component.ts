@@ -2,7 +2,6 @@ import { Component, OnInit } from '@angular/core';
 
 import { Subscriber } from '../models/subscriber';
 import { GetSubscriberService } from '../services/get-subscriber.service';
-import { AddProductService } from '../services/add-product.service';
 import { AddSubscriberService } from '../services/add-subscriber.service';
  
 
@@ -23,13 +22,17 @@ export class AdminSubscribersComponent implements OnInit {
   ) { }
 
   ngOnInit() {
+    this.GetSubscribers();
+  }
+  
+  GetSubscribers() {
     this.getSubscriberService.getSubscriber().subscribe(
       subscribers => {
         this.subscribers = subscribers;
       }
     );
   }
-  
+
   delete(id) {
     this.addSubscriberService.deleteSubscriber(id).subscribe(
       date => {
@@ -40,5 +43,6 @@ export class AdminSubscribersComponent implements OnInit {
         }
       }
     );
+    this.GetSubscribers();
   }
 }

@@ -20,6 +20,12 @@ import { AddEmployeeService } from './services/add-employee.service';
 import { GetEmployeeService } from './services/get-employee.service';
 import { AdminProductsComponent } from './admin-products/admin-products.component';
 import { AdminSubscribersComponent } from './admin-subscribers/admin-subscribers.component';
+import { LoginComponent } from './login/login.component';
+import { AddProductService } from './services/add-product.service';
+import { GetProductService } from './services/get-product.service';
+import { AddSubscriberService } from './services/add-subscriber.service';
+import { GetSubscriberService } from './services/get-subscriber.service';
+import { ConstantsService } from './services/constants.service';
 
 @NgModule({
   declarations: [
@@ -35,7 +41,9 @@ import { AdminSubscribersComponent } from './admin-subscribers/admin-subscribers
     EmailComponent,
     AdminComponent,
     AdminProductsComponent,
-    AdminSubscribersComponent
+    AdminSubscribersComponent,
+    LoginComponent,
+
   ],
   imports: [
     BrowserModule,
@@ -43,7 +51,16 @@ import { AdminSubscribersComponent } from './admin-subscribers/admin-subscribers
     FormsModule,
     HttpClientModule
   ],
-  providers: [AddEmployeeService, GetEmployeeService],
+  providers: [
+    AddEmployeeService,
+    GetEmployeeService,
+    AddProductService,
+    GetProductService,
+    AddSubscriberService,
+    GetSubscriberService,
+    ConstantsService
+    ],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {
+}

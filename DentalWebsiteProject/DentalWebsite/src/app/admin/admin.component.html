@@ -1,68 +1,72 @@
 <section>
-<div class="container">
-    <form (submit)="OnAddSubmint()">
+    <div class="container">
+        <div class="logout">
+            <label>Admin oldal</label>
+            <button (click)="Logout()">Logout</button>
+        </div>
+        <form (submit)="OnAddSubmint()">
             <h1>Alkalmazott hozzáadás</h1>
-    <div class="form-group">
-        <label>Név:</label>
-        <input type="text" class="form-control" [(ngModel)]="name" name="name">
+            <div class="form-group">
+                <label>Név:</label>
+                <input type="text" class="form-control" [(ngModel)]="name" name="name">
+            </div>
+            <div class="form-group">
+                <label>Email:</label>
+                <input type="text" class="form-control" [(ngModel)]="email" name="email">
+            </div>
+            <div class="form-group">
+                <label>Telefonszám:</label>
+                <input type="text" class="form-control" [(ngModel)]="telephone" name="phone">
+            </div>
+            <div class="form-group">
+                <label>Szakterület:</label>
+                <input type="text" class="form-control" [(ngModel)]="specialization" name="specialization">
+            </div>
+            <div class="form-group">
+                <label>Kép:</label>
+                <input type="text" class="form-control" [(ngModel)]="image" name="image">
+            </div>
+            <div class="form-group">
+                <p>Bemutatkozó szöveg:</p>
+                <textarea rows="6" type="textarea"class="form-control" [(ngModel)]="introduction" name="introduction"></textarea>
+            </div>
+            <input type="submit" value="Submit" class="btn btn-primary">
+        </form>
+        <table>
+                <h1>Alkalmazottak listája</h1>
+            <tr>
+                <th scope="col">
+                    <h5>Név</h5>
+                </th>
+                <th scope="col">
+                    <h5>Email</h5>
+                </th>
+                <th scope="col">
+                    <h5>Telefonszám</h5>
+                </th>
+                <th scope="col">
+                    <h5>Szakterület</h5>
+                </th>
+            </tr>
+            <tr *ngFor="let employee of employees">
+                <td>
+                    <h5>{{ employee.name }}</h5>
+                </td>
+                <td>
+                    <h5>{{ employee.email }}</h5>
+                </td>
+                <td>
+                    <h5>{{ employee.telephone }}</h5>
+                </td>
+                <td>
+                    <h5>{{ employee.specialization }}</h5>
+                </td>
+                <td>
+                    <button (click)="delete(employee._id)" class="btn btn-danger">Törlés</button>
+                </td>
+            </tr>
+        </table>
     </div>
-    <div class="form-group">
-        <label>Email:</label>
-        <input type="text" class="form-control" [(ngModel)]="email" name="email">
-    </div>
-    <div class="form-group">
-        <label>Telefonszám:</label>
-        <input type="text" class="form-control" [(ngModel)]="telephone" name="phone">
-    </div>
-    <div class="form-group">
-        <label>Szakterület:</label>
-        <input type="text" class="form-control" [(ngModel)]="specialization" name="specialization">
-    </div>
-    <div class="form-group">
-        <label>Kép:</label>
-        <input type="text" class="form-control" [(ngModel)]="image" name="image">
-    </div>
-    <div class="form-group">
-        <p>Bemutatkozó szöveg:</p>
-        <textarea rows="6" type="textarea"class="form-control" [(ngModel)]="introduction" name="introduction"></textarea>
-    </div>
-    <input type="submit" value="Submit" class="btn btn-primary">
-</form>
-<table>
-        <h1>Alkalmazottak listája</h1>
-    <tr>
-        <td scope="col">
-            <h5>Név</h5>
-        </td>
-        <td scope="col">
-            <h5>Email</h5>
-        </td>
-        <td scope="col">
-            <h5>Telefonszám</h5>
-        </td>
-        <td scope="col">
-            <h5>Szakterület</h5>
-        </td>
-    </tr>
-    <tr *ngFor="let employee of employees">
-        <td>
-            <h5>{{ employee.name }}</h5>
-        </td>
-        <td>
-            <h5>{{ employee.email }}</h5>
-        </td>
-        <td>
-            <h5>{{ employee.telephone }}</h5>
-        </td>
-        <td>
-            <h5>{{ employee.specialization }}</h5>
-        </td>
-        <td>
-            <button (click)="delete(employee._id)" class="btn btn-danger">Törlés</button>
-        </td>
-    </tr>
-</table>
-</div>
 </section>
 <app-admin-products></app-admin-products>
 <app-admin-subscribers></app-admin-subscribers>

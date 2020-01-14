@@ -21,9 +21,15 @@ export class AdminProductsComponent implements OnInit {
   ) { }
 
   ngOnInit() {
+    this.ListProducts();
+  }
+
+  ListProducts() {
     this.getProductService.getProducts().subscribe(
       products => {
         this.products = products;
+      }, (err) => {
+        alert(err);
       }
     );
   }
@@ -34,6 +40,7 @@ export class AdminProductsComponent implements OnInit {
       category: this.category
     }
     this.addProductService.addProduct(product);
+    this.ListProducts();
   }
 
   delete(id) {
@@ -46,5 +53,6 @@ export class AdminProductsComponent implements OnInit {
         }
       }
     );
+    this.ListProducts();
   }
 }

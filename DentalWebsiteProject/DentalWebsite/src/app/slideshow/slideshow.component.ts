@@ -11,7 +11,6 @@ export class SlideshowComponent implements OnInit {
   constructor() { SlideshowComponent.slideIndex = 1;}
 
   ngOnInit() {
-    console.log(SlideshowComponent.slideIndex);
     SlideshowComponent.loadSlide(SlideshowComponent.slideIndex);
     setInterval(this.showSlides,10000);
   }

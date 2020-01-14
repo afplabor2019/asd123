@@ -25,6 +25,13 @@ export class AdminComponent implements OnInit {
   ) { }
 
   ngOnInit() {
+    if (sessionStorage.getItem("key") == null) {
+      window.location.href = "http://localhost:4200/login";
+    }
+    this.GetEmployees();
+  }
+
+  GetEmployees() {
     this.getEmployeeService.getEmployees().subscribe(
       employees => {
         this.employees = employees;
@@ -42,6 +49,7 @@ export class AdminComponent implements OnInit {
       image: this.image
     }
     this.addEmployeeService.addEmployee(employee);
+    this.GetEmployees();
   }
 
   delete(id) {
@@ -54,5 +62,11 @@ export class AdminComponent implements OnInit {
         }
       }
     );
+    this.GetEmployees();
+  }
+
+  Logout() {
+    sessionStorage.removeItem("key");
+    window.location.href = "http://localhost:4200";
   }
 }
