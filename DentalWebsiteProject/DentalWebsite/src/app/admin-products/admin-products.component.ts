@@ -21,10 +21,10 @@ export class AdminProductsComponent implements OnInit {
   ) { }
 
   ngOnInit() {
-    this.ListProducts();
+    this.GetProducts();
   }
 
-  ListProducts() {
+  GetProducts() {
     this.getProductService.getProducts().subscribe(
       products => {
         this.products = products;
@@ -39,20 +39,34 @@ export class AdminProductsComponent implements OnInit {
       name: this.name,
       category: this.category
     }
-    this.addProductService.addProduct(product);
-    this.ListProducts();
+    this.addProductService.addProduct(product).subscribe(
+      response => {
+        console.log(response);
+      },
+      error => {
+        alert(error);
+      },
+      () => {
+        this.GetProducts();
+      }
+    );
   }
 
   delete(id) {
     this.addProductService.deleteProduct(id).subscribe(
-      data => {
+      () => {
         for (var i = 0; i < this.products.length; i++) {
           if (this.products[i]._id == id) {
             this.products.splice(i, 1);
           }
         }
+      },
+      error => {
+        alert(error);
+      },
+      () => {
+        this.GetProducts();
       }
     );
-    this.ListProducts();
   }
 }

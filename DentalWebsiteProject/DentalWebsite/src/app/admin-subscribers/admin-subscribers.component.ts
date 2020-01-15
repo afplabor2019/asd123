@@ -35,14 +35,19 @@ export class AdminSubscribersComponent implements OnInit {
 
   delete(id) {
     this.addSubscriberService.deleteSubscriber(id).subscribe(
-      date => {
+      () => {
         for (var i = 0; i < this.subscribers.length; i++) {
           if (this.subscribers[i]._id == id) {
             this.subscribers.splice(i, 1);
           }
         }
+      },
+      error => {
+        alert(error);
+      },
+      () => { 
+        this.GetSubscribers();
       }
     );
-    this.GetSubscribers();
   }
 }

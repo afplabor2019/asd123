@@ -1,6 +1,7 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { ConstantsService } from './constants.service';
+import { Observable } from 'rxjs';
 
 @Injectable({
   providedIn: 'root'
@@ -11,10 +12,8 @@ export class AddProductService {
 
   route = this._constant.baseAppUrl + '/products/';
 
-  addProduct(product) {
-    this.http.post(this.route + sessionStorage.getItem("key"), product)
-      .subscribe(response => console.log(response)
-    );
+  addProduct(product): Observable<any> {
+    return this.http.post(this.route + sessionStorage.getItem("key"), product);
   }
 
   deleteProduct(id) {

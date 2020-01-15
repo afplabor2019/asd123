@@ -1,6 +1,7 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { ConstantsService } from './constants.service';
+import { Observable } from 'rxjs';
 
 @Injectable({
   providedIn: 'root'
@@ -11,16 +12,9 @@ export class AddEmployeeService {
 
   route = this._constant.baseAppUrl + '/employees/';
 
-  addEmployee(employee) {
-    this.http.post(this.route + sessionStorage.getItem("key"), employee)
-      .subscribe(
-        (val) => {
-            val;
-        },
-        error => {
-          alert(error);
-        }
-    );
+  addEmployee(employee): Observable<any> {
+    return this.http.post(this.route + sessionStorage.getItem("key"), employee);
+      
   }
 
   deleteEmployee(id) {

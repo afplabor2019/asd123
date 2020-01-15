@@ -28,7 +28,7 @@ export class AddSubscriberService {
   }
 
   deleteSubscriber(id) {
-    return this.http.delete(this.route + `${id}&/` + sessionStorage.getItem("key"));
+    return this.http.delete(this.route + `${id}&` + sessionStorage.getItem("key"));
   }
 
   updateSubscriber(subscriber) {

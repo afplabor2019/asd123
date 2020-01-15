@@ -48,21 +48,35 @@ export class AdminComponent implements OnInit {
       telephone: this.telephone,
       image: this.image
     }
-    this.addEmployeeService.addEmployee(employee);
-    this.GetEmployees();
+    this.addEmployeeService.addEmployee(employee).subscribe(
+      (val) => {
+          console.log(val);
+      },
+      error => {
+        alert(error);
+      },
+      () => {
+        this.GetEmployees();
+      }
+    );
   }
 
   delete(id) {
     this.addEmployeeService.deleteEmployee(id).subscribe(
-      data => {
+      () => {
         for (var i = 0; i < this.employees.length; i++) {
           if (this.employees[i]._id == id) {
             this.employees.splice(i, 1);
           }
         }
+      },
+      error => {
+        alert(error);
+      },
+      () => {
+        this.GetEmployees();
       }
     );
-    this.GetEmployees();
   }
 
   Logout() {
