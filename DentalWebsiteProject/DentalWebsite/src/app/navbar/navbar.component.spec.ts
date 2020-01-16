@@ -9,9 +9,8 @@ import { EmailComponent } from '../email/email.component';
 import { LogosComponent } from '../logos/logos.component';
 import { ProductsComponent } from '../products/products.component';
 import { SlideshowComponent } from '../slideshow/slideshow.component';
-import {FormsModule} from '@angular/forms';
+import { FormsModule } from '@angular/forms';
 import { HttpClientModule} from '@angular/common/http';
-
 
 describe('NavbarComponent', () => {
   let component: NavbarComponent;

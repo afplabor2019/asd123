@@ -8,7 +8,7 @@ import { HttpClientModule} from '@angular/common/http';
 
 import {AdminProductsComponent} from '../admin-products/admin-products.component';
 
-import {AdminSubscribersComponent} from '../admin-subscribers/admin-subscribers.component';
+import { AdminSubscribersComponent } from '../admin-subscribers/admin-subscribers.component';
 
 
 describe('AdminComponent', () => {
@@ -24,6 +24,7 @@ describe('AdminComponent', () => {
   }));
 
   beforeEach(() => {
+    sessionStorage.setItem("key", 'YcUcJwNM5sN9iSaNmGvF'); 
     fixture = TestBed.createComponent(AdminComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();

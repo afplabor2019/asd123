@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
 import { LoginService } from '../services/login.service';
-import { AppModule } from '../app.module';
 
 @Component({
   selector: 'app-login',
@@ -10,7 +9,6 @@ import { AppModule } from '../app.module';
 export class LoginComponent implements OnInit {
   name: String;
   password: String;
-  valasz: string;
   errors: string[];
 
   constructor(private loginService: LoginService) { }
