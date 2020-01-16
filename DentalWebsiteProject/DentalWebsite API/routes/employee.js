@@ -4,17 +4,15 @@ var mongojs = require('mongojs');
 var db = mongojs('dentalDB', ['employees']);
 var key = 'YcUcJwNM5sN9iSaNmGvF';
 
-router.get('/:key', function (req, res, next) {
-    if (req.params.key == key) {
-        db.employees.find(function (err, employees) {
-            if (err) {
-                res.status(500).send(err);
-            }
-            else {
-                res.status(200).json(employees);
-            }
-        });
-    }
+router.get('/', function (req, res, next) {
+    db.employees.find(function (err, employees) {
+        if (err) {
+            res.status(500).send(err);
+        }
+        else {
+            res.status(200).json(employees);
+        }
+    });
 });
 
 router.get('/:id&:key', function (req, res, next) {

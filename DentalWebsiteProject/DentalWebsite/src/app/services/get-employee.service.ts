@@ -13,6 +13,6 @@ export class GetEmployeeService {
   route = this._constant.baseAppUrl + '/employees/';
 
   getEmployees(): Observable<any> {
-    return this.http.get(this.route + sessionStorage.getItem("key"));
+    return this.http.get(this.route);
   }
 }
