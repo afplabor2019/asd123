@@ -58,19 +58,19 @@ Expected result: The website running without problems
   * Test: Look thoroughly the icons, pictures, design and text of the website  
 Expected result: The client will be satisfied with the finished project
 * ID 2.0  
-  * Test: Scroll through the web page and use navbar
+  * Test: Scroll through the web page and use navbar  
 Expected result: Navbar buttons will work and they jump to the part of the website where they were set
 * ID 3.0
-  * Test: Try to ask for a price request with the newsletter icon, which is in the left-center of the viewport
+  * Test: Try to ask for a price request with the newsletter icon, which is in the left-center of the viewport  
 Expected result: The client will find the icon, fulfill the form and the message will be stored in the database
 * ID 4.0
-  * Test: The client logs in to the admin page with a pre-specified username and password 
+  * Test: The client logs in to the admin page with a pre-specified username and password  
 Expected result: If the username and password are rights, the admin page will be loaded
 * ID 4.1
-  * Test: The client have to add one more employee to the website 
+  * Test: The client have to add one more employee to the website  
 Expected result: After added on the admin page, employee will show up on the website, and stored in the database
 * ID 4.2
-  * Test: Subscribers to the newsletter will have their email address stored in the database
+  * Test: Subscribers to the newsletter will have their email address stored in the database  
 Expected result: Client can see email address on the admin page
 
 ### UAT Test Results
@@ -78,36 +78,43 @@ Expected result: Client can see email address on the admin page
   <thead>
   	<tr>
     	<td colspan=1><b><p align="center">ID</p></b></td>
-    	<td colspan=3><b><p align="center">Pass/Fail</p></b></td>
+    	<td colspan=3><b><p align="center">Pass Or Fail</p></b></td>
   	</tr>
   </thead>
   <tr>
   	<td><p align="center">1.0</p></td>
-  	<td><p>Pass</p></td>
+  	<td><p>Passed</p></td>
+    <td colspan=5><b><p>Websiste works</p></b></td>
   </tr>
   <tr>
   	<td><p align="center">1.1</p></td>
-  	<td><p>Pass</p></td>
+  	<td><p>Passed</p></td>
+    <td colspan=5><b><p>Client likes the website, and he is satisfied with appearance</p></b></td>
   </tr>
   <tr>
   	<td><p align="center">2.0</p></td>
-  	<td><p>Pass</p></td>
+  	<td><p>Passed</p></td>
+    <td colspan=5><b><p>Navbar buttons work perfectly</p></b></td>  
   </tr>
   <tr>
   	<td><p align="center">3.0</p></td>
-  	<td><p>Pass</p></td>
+  	<td><p>Passed</p></td>
+    <td colspan=5><b><p>Newsletter icon appears and functions as intended</p></b></td>
   </tr>
   <tr>
   	<td><p align="center">4.0</p></td>
-  	<td><p>Pass</p></td>
+  	<td><p>Passed</p></td>
+    <td colspan=5><b><p>Admin page works, there is no problem with the login</p></b></td>
   </tr>
   <tr>
   	<td><p align="center">4.1</p></td>
-  	<td><p>Pass</p></td>
+  	<td><p>Passed</p></td>
+    <td colspan=5><b><p>Adding an employee to the database is possible and functional</p></b></td>
   </tr>
   <tr>
-  	<td><p align="center">4.1</p></td>
-  	<td><p>Pass</p></td>
+  	<td><p align="center">4.2</p></td>
+  	<td><p>Passed</p></td>
+    <td colspan=5><b><p>The registered email addresses appear on the admin page</p></b></td>
   </tr>
 </table>
 
