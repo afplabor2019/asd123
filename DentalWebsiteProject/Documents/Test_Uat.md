@@ -1,4 +1,4 @@
-# Tests
+# Test
 
 <table>
   <tr>
@@ -12,6 +12,10 @@
   <tr>
     <td><b><p>Document ID</p></b></td>
     <td><p>R4T221</p>
+  </tr>
+    <tr>
+    <td><b><p>Type of the test</p></b></td>
+    <td><p>User acceptance testing</p>
   </tr>
 </table>
 
